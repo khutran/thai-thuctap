@@ -109,9 +109,6 @@ volumes:
   www:
 
 networks:
-  default:
-    driver: bridge
-networks:
   static-network:
     ipam:
       config:
