@@ -1,19 +1,17 @@
 FROM mysql
+
 RUN chown -R mysql:root /var/lib/mysql/
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    vim wget
 
-ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_USER=thaild
-ENV MYSQL_PASSWORD=thaild
-ENV MYSQL_DATABASE=wordpress
-ENV MYSQL_ROOT_HOST=0.0.0.0
+#Create admin user
 
-ENV MYSQL_DATA_DIR=/var/lib/mysql \
-    MYSQL_RUN_DIR=/run/mysqld \
-    MYSQL_LOG_DIR=/var/log/mysql
-
-COPY docker-entrypoint.sh /usr/local/bin/
-
-ENTRYPOINT ["docker-entrypoint.sh"]
-
+# ADD mariadb.sql /root/mariadb.sql
+# ADD mariadb.sh /root/mariadb.sh
+# RUN chmod -R 755 /var/lib/mysql/ && chown -R mysql:mysql /var/lib/mysql/*
+# RUN yum clean all
+# RUN chmod +x /root/mariadb.sh 
+#RUN ./root/mariadb.sh
+# Add VOLUMEs to allow backup of config and databases
+VOLUME ["/etc/mysql", "/var/lib/mysql"]
 EXPOSE 3306
-CMD ["mysqld"]
