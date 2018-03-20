@@ -1,0 +1,21 @@
+FROM centos:6
+LABEL maintainer="thaild <thaiattt@gmail.com>"
+RUN  yum -y install yum-plugin-priorities gcc wget vim
+
+ENV TERM dumb
+ADD mariadb.repo /etc/yum.repos.d/mariadb.repo
+RUN yum install -y MariaDB-server 
+
+ADD mariadb.sql /root/mariadb.sql
+ADD mariadb.sh /root/mariadb.sh
+
+
+RUN echo "[mysqld]" > /etc/my.cnf
+RUN echo "bind-address=0.0.0.0" >> /etc/my.cnf
+RUN chmod -R 755 /var/lib/mysql/ && chown -R mysql:mysql /var/lib/mysql/*
+# RUN yum clean all
+RUN chmod +x /root/mariadb.sh 
+
+EXPOSE 3306
+
+CMD ["mysqld_safe"]
