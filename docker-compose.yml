@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 
 services:
     mautic:
@@ -95,13 +95,13 @@ services:
 
     #MySQL config
     mysql:
-        build: 
-            context: ./docker/mysql
-            args:
-                - MYSQL_DATABASE=${MYSQL_DATABASE}
-                - MYSQL_USER=${MYSQL_USER}
-                - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-                - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+        build: ./docker/mysql
+        environment:
+            MYSQL_DATABASE: wordpress
+            MYSQL_USER: thaild
+            MYSQL_PASSWORD: thaild
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_ROOT_HOST: 0.0.0.0   
         container_name: mysqlserver
         networks:
             static-network:
@@ -112,8 +112,6 @@ services:
             - ./db-data:/var/lib/mysql
             - ./logs/mysql:/var/log
         restart: always
-
-    #PHPmyadmin
     
 volumes:
   db-data:

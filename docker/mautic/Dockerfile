@@ -20,6 +20,9 @@ VOLUME /var/www
 
 # Enable Apache Rewrite Module
 RUN a2enmod rewrite
+COPY ./sites-available /etc/apache2/sites-available
+COPY run.sh run.sh
+RUN chmod +x run.sh && ./run.sh
 # RUN cd /etc/apache2/sites-available && a2ensite hrautomail.vicoders.com.conf viwebsite.vicoders.com.conf
 # RUN chown -R www-data:www-data /var/www/mautic
 

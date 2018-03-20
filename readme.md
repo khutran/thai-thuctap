@@ -12,7 +12,7 @@
     Creat VHost:
         - wpdocker.co
         - wp1.co
-        - phpmyadmin.co
+        - myadmin.co
     - /opt/rh/httpd24/root/etc/httpd/conf/httpd.conf fixed PHP-FPM 172.22.0.2
 
 ##  MAUTIC:
@@ -45,5 +45,5 @@ ISSUES: khi request IP 172.22.0.4 (nginx) thì ra trang wp1.co
 ####    172.22.0.4      wp1.co
 ####    172.22.0.4      hrautomail.vicoders.com
 ####    172.22.0.4      viwebsite.vicoders.com
-####    172.22.0.6      phpmyadmin.co
+####    172.22.0.4      myadmin.co
 
