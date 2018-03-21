@@ -11,7 +11,7 @@ services:
             static-network:
                 ipv4_address: 172.22.0.2
         ports:
-            - "9009:9000"
+            - "9000:9000"
         volumes:
             - ./www:/var/www
         links:
