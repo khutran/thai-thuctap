@@ -1,32 +1,31 @@
 version: '2'
 
 services:
-    mautic:
-        build: ./docker/mautic
-        container_name: mauticserver
-        networks:
-            static-network:
-                ipv4_address: 172.22.0.7
-        links:
-            - mysql:mysql
-        depends_on:
-            - mysql
-        ports:
-            - 8787:8787
-        volumes:
-            - ./www/mautic:/var/www
-            # - ./etc/mautic/apache:/etc/apache2
-            - ./etc/mautic/filelimits.ini:/usr/local/etc/php/conf.d/filelimits.ini
-            - ./etc/mautic/apache/apache2.conf:/etc/apache2/apache2.conf
-            - ./etc/mautic/apache/ports.conf:/etc/apache2/ports.conf
-            - ./etc/mautic/apache/sites-available:/etc/apache2/sites-available
-            - ./logs/mautic:/var/log/apache2
-        environment:
-            MAUTIC_DB_HOST: mysql
-            MAUTIC_DB_USER: thaild
-            MAUTIC_DB_PASSWORD: thaild
-            MAUTIC_DB_NAME: mauticdb
-        restart: always
+    # mautic:
+    #     build: ./docker/mautic
+    #     container_name: mauticserver
+    #     networks:
+    #         static-network:
+    #             ipv4_address: 172.22.0.7
+    #     links:
+    #         - mysql:mysql
+    #     depends_on:
+    #         - mysql
+    #     ports:
+    #         - 8787:8787
+    #     volumes:
+    #         - ./www/mautic:/var/www
+    #         #httpd conf
+    #         - ./etc/mautic/httpd.conf:/opt/rh/httpd24/root/etc/httpd/conf/httpd.conf
+    #         - ./etc/mautic/conf.d:/opt/rh/httpd24/root/etc/httpd/conf.d
+    #         #log    
+    #         - ./logs/mautic:/var/log/httpd24        
+    #     environment:
+    #         MAUTIC_DB_HOST: mysql
+    #         MAUTIC_DB_USER: thaild
+    #         MAUTIC_DB_PASSWORD: thaild
+    #         MAUTIC_DB_NAME: mauticdb
+    #     restart: always
 
     #fast-CGI processer manager
     php7:
@@ -67,7 +66,7 @@ services:
         links:
             # - php7
             - httpd
-            - mautic
+            # - mautic
         restart: always
 
     #apache web server
@@ -110,7 +109,6 @@ services:
             - '3306:3306'
         volumes:
             - ./db-data:/var/lib/mysql
-            - ./logs/mysql:/var/log
         restart: always
     
 volumes:

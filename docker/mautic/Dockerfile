@@ -1,30 +1,20 @@
-FROM php:7.0-apache
+FROM centos:6
 MAINTAINER thaild <thaild@vicoders.com> (@thaild)
 
-# Install PHP extensions
-RUN apt-get update && apt-get install --no-install-recommends -y \
-    cron \
-    libc-client-dev \
-    libicu-dev \
-    libkrb5-dev \
-    libmcrypt-dev \
-    libssl-dev \
-    unzip \
-    zip \
-    vim \
-    && rm /etc/cron.daily/*
-RUN docker-php-ext-configure imap --with-imap --with-imap-ssl --with-kerberos \
-    && docker-php-ext-install imap intl mbstring mcrypt mysqli pdo pdo_mysql zip
+RUN yum -y install yum-plugin-priorities pcre-devel autoconf libtool epel-release centos-release-scl-rh centos-release-scl apr-util gcc wget vim
+
+#httpd 2.4
+RUN cd /etc/yum.repos.d/ && wget http://repos.fedorapeople.org/repos/jkaluza/httpd24/epel-httpd24.repo \
+    && yum install -y httpd24.x86_64 
 
 VOLUME /var/www
 
 # Enable Apache Rewrite Module
-RUN a2enmod rewrite
-COPY ./sites-available /etc/apache2/sites-available
-COPY run.sh run.sh
-RUN chmod +x run.sh && ./run.sh
-# RUN cd /etc/apache2/sites-available && a2ensite hrautomail.vicoders.com.conf viwebsite.vicoders.com.conf
-# RUN chown -R www-data:www-data /var/www/mautic
+# RUN a2enmod rewrite
+RUN mkdir -p /var/www
+RUN chown -R 755 /var/www
 
-# ENTRYPOINT ["/entrypoint.sh"]
-CMD ["apache2-foreground"]
+RUN sed -i "s/:100:101:apache:/:$APACHE_UID:$APACHE_GID:apache:/g" /etc/passwd \
+    && sed -i "s/:101:apache/:$APACHE_GID:apache/g" /etc/group \
+    && chown -R apache:apache /var/www
+CMD ["/opt/rh/httpd24/root/usr/sbin/httpd", "-D", "FOREGROUND"]
