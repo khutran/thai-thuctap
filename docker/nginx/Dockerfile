@@ -6,7 +6,7 @@ RUN  yum -y install yum-plugin-priorities pcre-devel autoconf libtool epel-relea
 RUN yum install -y nginx
 
 RUN mkdir -p /var/www
-RUN chown -R 755 /var/www
+# RUN chown -R 755 /var/www
 
 # WORKDIR /var/www/html
 RUN groupadd apache && useradd -d /var/www -g apache apache

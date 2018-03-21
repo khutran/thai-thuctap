@@ -1,31 +1,6 @@
 version: '2'
 
 services:
-    # mautic:
-    #     build: ./docker/mautic
-    #     container_name: mauticserver
-    #     networks:
-    #         static-network:
-    #             ipv4_address: 172.22.0.7
-    #     links:
-    #         - mysql:mysql
-    #     depends_on:
-    #         - mysql
-    #     ports:
-    #         - 8787:8787
-    #     volumes:
-    #         - ./www/mautic:/var/www
-    #         #httpd conf
-    #         - ./etc/mautic/httpd.conf:/opt/rh/httpd24/root/etc/httpd/conf/httpd.conf
-    #         - ./etc/mautic/conf.d:/opt/rh/httpd24/root/etc/httpd/conf.d
-    #         #log    
-    #         - ./logs/mautic:/var/log/httpd24        
-    #     environment:
-    #         MAUTIC_DB_HOST: mysql
-    #         MAUTIC_DB_USER: thaild
-    #         MAUTIC_DB_PASSWORD: thaild
-    #         MAUTIC_DB_NAME: mauticdb
-    #     restart: always
 
     #fast-CGI processer manager
     php7:

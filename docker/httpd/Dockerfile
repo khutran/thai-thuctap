@@ -10,7 +10,7 @@ RUN cd /etc/yum.repos.d/ && wget http://repos.fedorapeople.org/repos/jkaluza/htt
 
 RUN mkdir -p /var/www
 # RUN chown -R apache:apache /var/www
-RUN chown -R 755 /var/www
+# RUN chmod -R 775 /var/www
 
 # WORKDIR /var/www/html
 
