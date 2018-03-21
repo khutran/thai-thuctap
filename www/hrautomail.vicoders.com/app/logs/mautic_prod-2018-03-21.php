@@ -2,3 +2,4 @@
 [2018-03-21 07:22:07] mautic.ERROR: SCHEMA ERROR: There is no column with name 'attribution' on table 'leads'. [] []
 [2018-03-21 07:30:00] mautic.ERROR: SCHEMA ERROR: There is no column with name 'attribution' on table 'leads'. [] []
 [2018-03-21 07:37:02] mautic.ERROR: SCHEMA ERROR: There is no column with name 'attribution' on table 'leads'. [] []
+[2018-03-21 15:24:18] mautic.ERROR: SCHEMA ERROR: There is no column with name 'attribution' on table 'leads'. [] []
