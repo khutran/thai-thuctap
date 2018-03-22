@@ -1,19 +1,15 @@
-[Tue Mar 20 03:11:18.534540 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /opt/rh/httpd24/root/usr/sbin/suexec)
-[Tue Mar 20 03:11:19.058241 2018] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
-[Tue Mar 20 03:11:19.058334 2018] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
-[Tue Mar 20 03:11:19.059262 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
-[Tue Mar 20 03:11:19.063808 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.27 (Red Hat) configured -- resuming normal operations
-[Tue Mar 20 03:11:19.122929 2018] [core:notice] [pid 1] AH00094: Command line: '/opt/rh/httpd24/root/usr/sbin/httpd -D FOREGROUND'
-[Tue Mar 20 03:18:57.135362 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
-[Tue Mar 20 03:20:44.411578 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /opt/rh/httpd24/root/usr/sbin/suexec)
-[Tue Mar 20 03:20:44.532495 2018] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
-[Tue Mar 20 03:20:44.550087 2018] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
-[Tue Mar 20 03:20:44.551429 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
-[Tue Mar 20 03:20:44.557750 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.27 (Red Hat) configured -- resuming normal operations
-[Tue Mar 20 03:20:44.557965 2018] [core:notice] [pid 1] AH00094: Command line: '/opt/rh/httpd24/root/usr/sbin/httpd -D FOREGROUND'
-[Tue Mar 20 03:33:03.443380 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /opt/rh/httpd24/root/usr/sbin/suexec)
-[Tue Mar 20 03:33:03.458837 2018] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
-[Tue Mar 20 03:33:03.458929 2018] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
-[Tue Mar 20 03:33:03.459627 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
-[Tue Mar 20 03:33:03.463371 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.27 (Red Hat) configured -- resuming normal operations
-[Tue Mar 20 03:33:03.466564 2018] [core:notice] [pid 1] AH00094: Command line: '/opt/rh/httpd24/root/usr/sbin/httpd -D FOREGROUND'
+[Wed Mar 21 10:20:03.996263 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /opt/rh/httpd24/root/usr/sbin/suexec)
+[Wed Mar 21 10:20:04.030314 2018] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Wed Mar 21 10:20:04.030473 2018] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
+[Wed Mar 21 10:20:04.031495 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Wed Mar 21 10:20:04.031712 2018] [core:warn] [pid 1] AH00098: pid file /opt/rh/httpd24/root/var/run/httpd/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 10:20:04.036069 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.27 (Red Hat) configured -- resuming normal operations
+[Wed Mar 21 10:20:04.037222 2018] [core:notice] [pid 1] AH00094: Command line: '/opt/rh/httpd24/root/usr/sbin/httpd -D FOREGROUND'
+[Wed Mar 21 10:24:08.158235 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /opt/rh/httpd24/root/usr/sbin/suexec)
+[Wed Mar 21 10:24:08.292729 2018] [http2:warn] [pid 1] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Wed Mar 21 10:24:08.292883 2018] [http2:warn] [pid 1] AH02951: mod_ssl does not seem to be enabled
+[Wed Mar 21 10:24:08.294291 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Wed Mar 21 10:24:08.294503 2018] [core:warn] [pid 1] AH00098: pid file /opt/rh/httpd24/root/var/run/httpd/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 21 10:24:08.300463 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.27 (Red Hat) configured -- resuming normal operations
+[Wed Mar 21 10:24:08.300609 2018] [core:notice] [pid 1] AH00094: Command line: '/opt/rh/httpd24/root/usr/sbin/httpd -D FOREGROUND'
+[Wed Mar 21 10:25:29.840212 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
