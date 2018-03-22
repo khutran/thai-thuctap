@@ -4,8 +4,9 @@ RUN chown -R mysql:root /var/lib/mysql/
 RUN apt-get update && apt-get install --no-install-recommends -y \
     vim wget
 
-#Create admin user
+# COPY showlogs.cnf  /etc/mysql/conf.d/
 
+#Create admin user
 # ADD mariadb.sql /root/mariadb.sql
 # ADD mariadb.sh /root/mariadb.sh
 # RUN chmod -R 755 /var/lib/mysql/ && chown -R mysql:mysql /var/lib/mysql/*
