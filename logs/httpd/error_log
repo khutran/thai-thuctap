@@ -1,19 +1,11 @@
-[Fri Mar 23 04:53:12.795627 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Fri Mar 23 04:53:12.910361 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Fri Mar 23 04:57:43.136502 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
-[Fri Mar 23 04:57:43.164449 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Fri Mar 23 04:57:43.164596 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Fri Mar 23 05:01:18.573615 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
-[Fri Mar 23 05:01:18.598073 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Fri Mar 23 05:01:18.598198 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Fri Mar 23 05:02:46.902460 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
-[Fri Mar 23 05:02:46.916991 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Fri Mar 23 05:02:46.917181 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Fri Mar 23 05:24:27.295083 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
-[Fri Mar 23 05:24:27.309020 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Fri Mar 23 05:24:27.309134 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Fri Mar 23 05:29:27.174704 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00491: caught SIGTERM, shutting down
-[Fri Mar 23 06:02:53.133677 2018] [ssl:warn] [pid 1:tid 140049488283392] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
-[Fri Mar 23 06:02:53.172861 2018] [lbmethod_heartbeat:notice] [pid 1:tid 140049488283392] AH02282: No slotmem from mod_heartmonitor
-[Fri Mar 23 06:02:53.177408 2018] [mpm_event:notice] [pid 1:tid 140049488283392] AH00489: Apache/2.4.29 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
-[Fri Mar 23 06:02:53.178299 2018] [core:notice] [pid 1:tid 140049488283392] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 09:50:06.083956 2018] [mpm_event:notice] [pid 1:tid 140576960005888] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 09:50:06.093274 2018] [core:notice] [pid 1:tid 140576960005888] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 09:53:12.541533 2018] [mpm_event:notice] [pid 1:tid 140576960005888] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 09:53:31.984138 2018] [mpm_event:notice] [pid 1:tid 139829825197824] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 09:53:31.985498 2018] [core:notice] [pid 1:tid 139829825197824] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 10:07:11.075909 2018] [mpm_event:notice] [pid 1:tid 139829825197824] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 10:07:42.965625 2018] [mpm_event:notice] [pid 1:tid 140509942474496] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 10:07:42.966268 2018] [core:notice] [pid 1:tid 140509942474496] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 10:15:38.827081 2018] [mpm_event:notice] [pid 1:tid 140509942474496] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 10:16:17.475413 2018] [mpm_event:notice] [pid 1:tid 140539768719104] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 10:16:17.477010 2018] [core:notice] [pid 1:tid 140539768719104] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
