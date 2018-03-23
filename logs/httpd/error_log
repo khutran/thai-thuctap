@@ -13,3 +13,7 @@
 [Fri Mar 23 05:24:27.309020 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
 [Fri Mar 23 05:24:27.309134 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
 [Fri Mar 23 05:29:27.174704 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 06:02:53.133677 2018] [ssl:warn] [pid 1:tid 140049488283392] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Mar 23 06:02:53.172861 2018] [lbmethod_heartbeat:notice] [pid 1:tid 140049488283392] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 23 06:02:53.177408 2018] [mpm_event:notice] [pid 1:tid 140049488283392] AH00489: Apache/2.4.29 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri Mar 23 06:02:53.178299 2018] [core:notice] [pid 1:tid 140049488283392] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
