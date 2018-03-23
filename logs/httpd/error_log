@@ -1,5 +1,15 @@
-[Thu Mar 22 14:00:13.463452 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Thu Mar 22 14:00:13.463752 2018] [core:notice] [pid 1:tid 139659536578304] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Thu Mar 22 14:26:51.908369 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00491: caught SIGTERM, shutting down
-[Thu Mar 22 14:27:12.928901 2018] [mpm_event:notice] [pid 1:tid 140081977358080] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Thu Mar 22 14:27:12.931549 2018] [core:notice] [pid 1:tid 140081977358080] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 04:53:12.795627 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 04:53:12.910361 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 04:57:43.136502 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
+[Fri Mar 23 04:57:43.164449 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 04:57:43.164596 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 05:01:18.573615 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
+[Fri Mar 23 05:01:18.598073 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 05:01:18.598198 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 05:02:46.902460 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
+[Fri Mar 23 05:02:46.916991 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 05:02:46.917181 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 05:24:27.295083 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00494: SIGHUP received.  Attempting to restart
+[Fri Mar 23 05:24:27.309020 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 05:24:27.309134 2018] [core:notice] [pid 1:tid 140205568759552] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 05:29:27.174704 2018] [mpm_event:notice] [pid 1:tid 140205568759552] AH00491: caught SIGTERM, shutting down
