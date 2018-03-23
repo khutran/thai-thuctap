@@ -1,5 +1,11 @@
-[Thu Mar 22 14:00:13.463452 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Thu Mar 22 14:00:13.463752 2018] [core:notice] [pid 1:tid 139659536578304] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
-[Thu Mar 22 14:26:51.908369 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00491: caught SIGTERM, shutting down
-[Thu Mar 22 14:27:12.928901 2018] [mpm_event:notice] [pid 1:tid 140081977358080] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
-[Thu Mar 22 14:27:12.931549 2018] [core:notice] [pid 1:tid 140081977358080] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 09:50:06.083956 2018] [mpm_event:notice] [pid 1:tid 140576960005888] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 09:50:06.093274 2018] [core:notice] [pid 1:tid 140576960005888] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 09:53:12.541533 2018] [mpm_event:notice] [pid 1:tid 140576960005888] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 09:53:31.984138 2018] [mpm_event:notice] [pid 1:tid 139829825197824] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 09:53:31.985498 2018] [core:notice] [pid 1:tid 139829825197824] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 10:07:11.075909 2018] [mpm_event:notice] [pid 1:tid 139829825197824] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 10:07:42.965625 2018] [mpm_event:notice] [pid 1:tid 140509942474496] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 10:07:42.966268 2018] [core:notice] [pid 1:tid 140509942474496] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Mar 23 10:15:38.827081 2018] [mpm_event:notice] [pid 1:tid 140509942474496] AH00491: caught SIGTERM, shutting down
+[Fri Mar 23 10:16:17.475413 2018] [mpm_event:notice] [pid 1:tid 140539768719104] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Fri Mar 23 10:16:17.477010 2018] [core:notice] [pid 1:tid 140539768719104] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'

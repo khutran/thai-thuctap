@@ -1,20 +1,20 @@
 FROM centos:6
 LABEL maintainer="thaild <thaiattt@gmail.com>"
 RUN  yum -y install \
-        yum-plugin-priorities \
-        pcre-devel \
-        autoconf \
-        openssl-devel \
-        libtool \
-        epel-release \
-        make centos-release-scl \
-        apr-devel \
-        apr-util-devel \
-        gcc \
-        wget \
-        expat-devel \
-        pcre pcre-devel \
-        vim 
+    yum-plugin-priorities \
+    pcre-devel \
+    autoconf \
+    openssl-devel \
+    libtool \
+    epel-release \
+    make centos-release-scl \
+    apr-devel \
+    apr-util-devel \
+    gcc \
+    wget \
+    expat-devel \
+    pcre pcre-devel \
+    vim 
 RUN yum groupinstall "Development Tools" -y
 # #httpd 2.4
 RUN cd /usr/local/src/ && wget http://www-eu.apache.org/dist//httpd/httpd-2.4.29.tar.gz \

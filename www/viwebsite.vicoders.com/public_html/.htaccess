@@ -7,7 +7,7 @@
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    
+    RewriteBase /
     RewriteCond %{HTTP:Authorization} .+
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
@@ -20,7 +20,7 @@
     RewriteRule .? - [L]
     RewriteRule .? %{ENV:BASE}/index.php [L]
     
-    RewriteBase /
+    
     #RewriteRule ^index\.php$ - [L]
     #RewriteCond %{REQUEST_FILENAME} !-f
     #RewriteCond %{REQUEST_FILENAME} !-d

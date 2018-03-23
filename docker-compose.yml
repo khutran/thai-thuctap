@@ -60,6 +60,7 @@ services:
             #httpd conf
             - ./etc/httpd/httpd.conf:/etc/httpd/conf/httpd.conf
             - ./etc/httpd/extra:/etc/httpd/conf/extra
+            # - ./etc/httpd/logship.sh:/usr/local/logsplit.sh
             #log    
             - ./logs/httpd:/etc/httpd/logs       
         depends_on: 
