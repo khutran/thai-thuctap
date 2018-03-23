@@ -20,6 +20,7 @@ RUN docker-php-ext-configure imap --with-imap --with-imap-ssl --with-kerberos \
     && docker-php-ext-install imap intl mbstring mcrypt zip
 
 # install the PHP extensions we need
+COPY config.user.ini /usr/local/etc/php/conf.d/
 RUN set -ex; \
     apt-get -y update; \
     apt-get install -y libjpeg-dev libpng-dev vim;\

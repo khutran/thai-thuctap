@@ -1,0 +1,5 @@
+[Thu Mar 22 14:00:13.463452 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Thu Mar 22 14:00:13.463752 2018] [core:notice] [pid 1:tid 139659536578304] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Mar 22 14:26:51.908369 2018] [mpm_event:notice] [pid 1:tid 139659536578304] AH00491: caught SIGTERM, shutting down
+[Thu Mar 22 14:27:12.928901 2018] [mpm_event:notice] [pid 1:tid 140081977358080] AH00489: Apache/2.4.29 (Unix) configured -- resuming normal operations
+[Thu Mar 22 14:27:12.931549 2018] [core:notice] [pid 1:tid 140081977358080] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'

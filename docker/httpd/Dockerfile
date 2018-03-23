@@ -1,22 +1,37 @@
 FROM centos:6
 LABEL maintainer="thaild <thaiattt@gmail.com>"
-RUN  yum -y install yum-plugin-priorities pcre-devel autoconf libtool epel-release centos-release-scl-rh centos-release-scl apr-util gcc wget
-
+RUN  yum -y install \
+        yum-plugin-priorities \
+        pcre-devel \
+        autoconf \
+        openssl-devel \
+        libtool \
+        epel-release \
+        make centos-release-scl \
+        apr-devel \
+        apr-util-devel \
+        gcc \
+        wget \
+        expat-devel \
+        pcre pcre-devel \
+        vim 
+RUN yum groupinstall "Development Tools" -y
 # #httpd 2.4
-RUN cd /etc/yum.repos.d/ && wget http://repos.fedorapeople.org/repos/jkaluza/httpd24/epel-httpd24.repo \
-    && yum install -y httpd24.x86_64 mod_ruid2
-#Config: //opt/rh/httpd24/root/etc/httpd
-#wWW: /opt/rh/httpd24/root/var/www/html
+RUN cd /usr/local/src/ && wget http://www-eu.apache.org/dist//httpd/httpd-2.4.29.tar.gz \
+    && tar xvfz httpd-2.4.29.tar.gz && cd httpd-2.4.29 
+RUN cd /usr/local/src/httpd-2.4.29 && wget http://mirrors.viethosting.com/apache//apr/apr-1.6.3.tar.gz && \
+    tar xvfz apr-1.6.3.tar.gz &&\
+    cd apr-1.6.3 && ./configure  --prefix=/usr/local/src/httpd-2.4.29/srclib/apr &&\
+    make && make install 
+RUN    cd /usr/local/src/httpd-2.4.29 && wget http://mirrors.viethosting.com/apache//apr/apr-util-1.6.1.tar.gz && \
+    tar xvfz apr-util-1.6.1.tar.gz &&\
+    cd apr-util-1.6.1 && ./configure --prefix=/usr/local/src/httpd-2.4.29/srclib/apr-util --with-apr=/usr/local/src/httpd-2.4.29/srclib/apr &&\
+    make && make install
 
-# RUN mkdir -p /var/www
-# RUN chown -R apache:apache /var/www
-# RUN chmod -R 775 /var/www
 
-# WORKDIR /var/www/html
+RUN cd /usr/local/src/httpd-2.4.29 && mkdir -p /etc/httpd/ && \
+    ./configure --prefix=/etc/httpd/ --sbindir=/usr/sbin/ --enable-ssl --enable-so  --with-apr=/usr/local/src/httpd-2.4.29/srclib/apr --with-apr-util=/usr/local/src/httpd-2.4.29/srclib/apr-util && \
+    make &&    make install
 
-# RUN sed -i "s/:100:101:apache:/:$APACHE_UID:$APACHE_GID:apache:/g" /etc/passwd \
-#     && sed -i "s/:101:apache/:$APACHE_GID:apache/g" /etc/group \
-#     && chown -R apache:apache /var/www
-CMD ["/opt/rh/httpd24/root/usr/sbin/httpd", "-D", "FOREGROUND"]
-
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
