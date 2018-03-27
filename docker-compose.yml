@@ -48,8 +48,8 @@ services:
             - "9056:9056"
         volumes:
             - ./www:/var/www
-            - ./etc/php56/php-fpm.d:/etc/php-fpm.d
-            - ./logs/php:/var/log/php-fpm
+            - ./etc/php56/php-fpm.d:/usr/local/etc/php-fpm.d
+            # - ./logs/php:/var/log/php-fpm
         links:
             - mysql
         restart: always

@@ -13,14 +13,14 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     libssl-dev \
     unzip \
     zip \
-    && rm /etc/cron.daily/*
+    # && rm /etc/cron.daily/*
 RUN docker-php-ext-configure imap --with-imap --with-imap-ssl --with-kerberos \
     && docker-php-ext-install imap intl mbstring mcrypt zip
 
 # install the PHP extensions we need
 RUN set -ex; \
     apt-get -y update; \
-    apt-get install -y libjpeg-dev libpng-dev vim;\
+    apt-get install -y libjpeg-dev libpng-dev vim net-tools;\
     docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr; \
     docker-php-ext-install gd mysqli pdo pdo_mysql opcache; 
 COPY config.user.ini /usr/local/etc/php/conf.d/

@@ -22,7 +22,7 @@ RUN docker-php-ext-configure imap --with-imap --with-imap-ssl --with-kerberos \
 # install the PHP extensions we need
 RUN set -ex; \
     apt-get -y update; \
-    apt-get install -y libjpeg-dev libpng-dev vim;\
+    apt-get install -y libjpeg-dev libpng-dev vim net-tools;\
     docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr; \
     docker-php-ext-install gd mysqli pdo pdo_mysql opcache; 
 COPY phpconf.ini /usr/local/etc/php/conf.d/
