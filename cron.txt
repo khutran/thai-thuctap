@@ -1,0 +1,23 @@
+0,15,30,45 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:segments:update >> /dev/null 2>&1
+5,20,35,50 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:campaigns:rebuild >> /dev/null 2>&1
+10,25,40,55 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:campaigns:trigger >> /dev/null 2>&1
+11,26,41,56 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:messages:send >> /dev/null 2>&1
+12,27,42,57 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:email:fetch >> /dev/null 2>&1
+13,28,43,58 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:social:monitoring >> /dev/null 2>&1
+14,29,44,59 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:webhooks:process >> /dev/null 2>&1
+10,25,40,55 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:iplookup:download >> /dev/null 2>&1
+11,26,41,56 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:broadcasts:send >> /dev/null 2>&1
+9 * * * * php /var/www/hrautomail.vicoders.com/app/console mautic:maintenance:cleanup --days-old=365 --dry-run >> /dev/null 2>&1
+*/5 * * * *  php /var/www/hrautomail.vicoders.com/app/console mautic:emails:send >> /dev/null 2>&1
+
+0,15,30,45 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:segments:update >> /dev/null 2>&1
+5,20,35,50 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:campaigns:rebuild >> /dev/null 2>&1
+10,25,40,55 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:campaigns:trigger >> /dev/null 2>&1
+11,26,41,56 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:messages:send >> /dev/null 2>&1
+12,27,42,57 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:email:fetch >> /dev/null 2>&1
+13,28,43,58 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:social:monitoring >> /dev/null 2>&1
+14,29,44,59 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:webhooks:process >> /dev/null 2>&1
+10,25,40,55 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:iplookup:download >> /dev/null 2>&1
+11,26,41,56 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:broadcasts:send >> /dev/null 2>&1
+9 * * * * php /var/www/viwebsite.vicoders.com/app/console mautic:maintenance:cleanup --days-old=365 --dry-run >> /dev/null 2>&1
+*/5 * * * *  php /var/www/viwebsite.vicoders.com/app/console mautic:emails:send >> /dev/null 2>&1

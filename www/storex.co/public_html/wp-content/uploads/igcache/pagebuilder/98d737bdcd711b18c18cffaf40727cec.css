@@ -1,0 +1,89 @@
+
+/*** List  ***/
+.ig-list-icons {
+	margin: 0;
+	padding: 0;
+}
+.ig-list-icons li {
+	clear: both;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	min-height: 60px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 30px;
+}
+.ig-list-icons .ig-icon-base i { position: relative; }
+.ig-list-icons [class^="icon-"],
+.ig-list-icons [class*=" icon-"] {
+    height: auto;
+    line-height: 100%;
+    margin-top: 0;
+    vertical-align: middle;
+    width: auto;
+}
+.ig-list-icons.ig-icon-16 .ig-icon-base i[class*="icon-"] { font-size: 14px; }
+.ig-list-icons.ig-icon-24 .ig-icon-base i[class*="icon-"] { font-size: 22px; }
+.ig-list-icons.ig-icon-32 .ig-icon-base i[class*="icon-"] { font-size: 30px; }
+.ig-list-icons.ig-icon-48 .ig-icon-base i[class*="icon-"] { font-size: 46px; }
+.ig-list-icons.ig-icon-64 .ig-icon-base i[class*="icon-"] { font-size: 62px; }
+.ig-list-icons .ig-icon-base {
+	position: relative;
+	z-index: 9;
+	text-align: center;
+}
+.ig-list-icons.ig-shape-circle .ig-icon-base {
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border: 2px solid rgba(255,255,255,0.4);
+}
+.ig-list-icons.ig-shape-square .ig-icon-base {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.ig-list-icons.ig-position-left .ig-icon-base {
+	float: left;
+	margin-right: 15px;
+}
+.ig-list-icons.ig-position-right {
+	text-align: right;
+}
+.ig-list-icons.ig-position-right .ig-icon-base {
+	float: right;
+	margin-left: 15px;
+}
+.ig-list-content-wrap {
+	overflow: hidden;
+}
+.ig-list-icons.ig-shape-circle.ig-icon-16 .ig-icon-base,
+.ig-list-icons.ig-shape-square.ig-icon-16 .ig-icon-base {
+	width: 45px;
+	height: 45px;
+	line-height: 37px;
+}
+.ig-list-icons.ig-shape-circle.ig-icon-24 .ig-icon-base,
+.ig-list-icons.ig-shape-square.ig-icon-24 .ig-icon-base {
+	width: 55px;
+	height: 55px;
+	line-height: 50px;
+}
+.ig-list-icons.ig-icon-32 .ig-icon-base {
+	width: 67px;
+	height: 67px;
+	line-height: 60px;
+}
+.ig-list-icons.ig-icon-48 .ig-icon-base {
+	width: 85px;
+	height: 85px;
+	line-height: 81px;
+}
+.ig-list-icons.ig-icon-64 .ig-icon-base {
+	width: 100px;
+	height: 100px;
+	line-height: 98px;
+}
+.ig-list-icons.ig-shape-square.ig-icon-16 .ig-icon-base { line-height: 42px; }
+.ig-list-icons.ig-shape-square.ig-icon-24 .ig-icon-base { line-height: 54px; }

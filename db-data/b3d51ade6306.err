@@ -1,0 +1,10 @@
+2018-03-24T03:10:09.550095Z mysqld_safe Logging to '/var/lib/mysql/b3d51ade6306.err'.
+2018-03-24T03:10:09.596800Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+mysqld: Can't read dir of '/etc/mysql/conf.d/*.cnf' (Errcode: 2 - No such file or directory)
+mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+2018-03-24T03:10:09.647082Z mysqld_safe mysqld from pid file /var/lib/mysql/b3d51ade6306.pid ended
+2018-03-24T03:11:09.187586Z mysqld_safe Logging to '/var/lib/mysql/b3d51ade6306.err'.
+2018-03-24T03:11:09.209387Z mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+mysqld: Can't read dir of '/etc/mysql/conf.d/mysql.cnf' (Errcode: 20 - Not a directory)
+mysqld: [ERROR] Fatal error in defaults handling. Program aborted!
+2018-03-24T03:11:09.222773Z mysqld_safe mysqld from pid file /var/lib/mysql/b3d51ade6306.pid ended

@@ -1,0 +1,70 @@
+# Repository: https://rpms.remirepo.net/
+# Blog:       https://blog.remirepo.net/
+# Forum:      https://forum.remirepo.net/
+
+[remi-safe]
+name=Safe Remi's RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/safe/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/safe/mirror
+enabled=1
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi]
+name=Remi's RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/remi/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/remi/mirror
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php54]
+name=Remi's PHP 5.4 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php54/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php54/mirror
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php55]
+name=Remi's PHP 5.5 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php55/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php55/mirror
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php56]
+name=Remi's PHP 5.6 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php56/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php56/mirror
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php70]
+name=Remi's PHP 7.0 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php70/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php70/mirror
+# WARNING: Only available for RHEL/CentOS >= 6
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php71]
+name=Remi's PHP 7.1 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php71/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php71/mirror
+# WARNING: Only available for RHEL/CentOS >= 6
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
+[remi-php72]
+name=Remi's PHP 7.2 RPM repository for Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.remirepo.net/enterprise/$releasever/php72/$basearch/
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php72/mirror
+# WARNING: Only available for RHEL/CentOS >= 6
+enabled=0
+gpgcheck=1
+gpgkey=http://rpms.remirepo.net/RPM-GPG-KEY-remi

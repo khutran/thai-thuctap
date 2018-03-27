@@ -1,17 +1,18 @@
 FROM mysql
 
-RUN chown -R mysql:root /var/lib/mysql/
+
 RUN apt-get update && apt-get install --no-install-recommends -y \
     vim wget
 
-#Create admin user
 
-# ADD mariadb.sql /root/mariadb.sql
-# ADD mariadb.sh /root/mariadb.sh
+#ADD DB
+# ADD 104_forest_storex_db.sql /root/104_forest_storex_db.sql
+# ADD mysql.sql /root/mysql.sql
+# ADD initdb.sh /root/initdb.sh
+# RUN chmod +x /root/initdb.sh  && service mysql start && ./root/initdb.sh
+
+RUN chown -R mysql:mysql /var/lib/mysql/
 # RUN chmod -R 755 /var/lib/mysql/ && chown -R mysql:mysql /var/lib/mysql/*
-# RUN yum clean all
-# RUN chmod +x /root/mariadb.sh 
-#RUN ./root/mariadb.sh
-# Add VOLUMEs to allow backup of config and databases
-VOLUME ["/etc/mysql", "/var/lib/mysql"]
+
+# VOLUME ["/etc/mysql", "/var/lib/mysql"]
 EXPOSE 3306

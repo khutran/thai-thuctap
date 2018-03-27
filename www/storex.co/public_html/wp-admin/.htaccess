@@ -1,0 +1,5 @@
+#AuthType Basic
+#AuthName "wp-admin"
+#AuthUserFile /home/httpass/lifelockcode/.htpasswd
+#Require valid-user
+

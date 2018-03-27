@@ -1,0 +1,14 @@
+/*-----Accordion-----*/
+.jsn-bootstrap3 .panel-heading {
+    padding: 0;
+}
+.jsn-bootstrap3 .panel-title a {
+    padding: 10px 15px;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+    text-decoration: none !important;
+}
+.jsn-bootstrap3 .panel-title a:hover {
+	background: #F9F9F9;
+}

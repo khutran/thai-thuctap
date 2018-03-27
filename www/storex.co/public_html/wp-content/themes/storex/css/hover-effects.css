@@ -1,0 +1,1011 @@
+.figure.banner-with-effects {
+	position: relative;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	background: transparent;
+	text-align: center;
+	cursor: pointer;
+}
+@media screen and (max-width: 800px){
+	.figure.banner-with-effects {
+		margin-bottom:30px;
+	}
+}
+.entry-content .figure.banner-with-effects img {
+	max-width: inherit;
+}
+
+.figure.banner-with-effects img {
+    position: relative;
+    display: block;
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.figure.banner-with-effects .figcaption {
+	padding: 1.538em;
+	color: #fff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.figure.banner-with-effects .figcaption::before,
+.figure.banner-with-effects .figcaption::after {
+	pointer-events: none;
+}
+
+.figure.banner-with-effects .figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.figure.banner-with-effects .figcaption.simple-banner {
+	width: 100%;
+	height: 100%;
+}
+
+.figure.banner-with-effects .banner-title,
+.figure.banner-with-effects .banner-content {
+	margin: 0;
+}
+
+.figure.banner-with-effects .banner-content {
+	display: inline-block;
+	position: absolute;
+	text-align:left;
+	padding-bottom: 20px !important;
+	padding-top: 20px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+/* Button styles */
+.figure.banner-with-effects.with-button a {
+	display: inline-block;
+	background: transparent;
+	font-size: 13px;
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0;
+	color: #fff;
+	z-index: 100;
+	min-width:auto;
+	position: absolute;
+	text-align: center;
+	background: transparent;
+	-webkit-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.figure.banner-with-effects.with-button.solid-light-button a {
+	font-family: Bold, 'Open Sans', sans-serif;
+	color: #444444;
+	font-size: 1.077em;
+	border-radius: 2px;
+	text-transform: uppercase;
+	background: #f9fafb;
+	border: 1px solid #f9fafb;
+}
+
+.figure.banner-with-effects.with-button.solid-light-button a:hover,
+.figure.banner-with-effects.with-button.solid-light-button a:focus {
+	background: #c2d44e;
+	border: 1px solid #c2d44e;
+	color: #FFF;
+}
+
+.figure.banner-with-effects.with-button.green-button a {
+	background: none repeat scroll 0 0 rgba(194, 212, 78, 0.6);
+}
+
+.figure.banner-with-effects.with-button.green-button a:hover,
+.figure.banner-with-effects.with-button.green-button a:focus {
+	background: none repeat scroll 0 0 rgba(194, 212, 78, 0.9);
+}
+
+.figure.banner-with-effects .left.top {
+	left: 0.538em;
+	top: 0.538em;
+	right: auto;
+	bottom: auto;
+}
+
+.figure.banner-with-effects .left.bottom {
+	left: 1.3em;
+	bottom: 40px;
+	right: auto;
+	top: auto;
+}
+
+.figure.banner-with-effects .right.top {
+  top: 0.538em;
+  right: 0.1em;
+  left: auto;
+  bottom: auto;
+  padding-right:20px;
+}
+
+.figure.banner-with-effects.effect-julia .right.top {
+  top: 0.538em;
+  right: 4em;
+  left: auto;
+  bottom: auto;
+  padding-right:20px;
+}
+@media screen and (max-width: 480px){
+	.figure.banner-with-effects.effect-julia .right.top {
+		right: -5em!important;
+		top: 0.8em!important;
+	}
+	.figure.banner-with-effects.effect-julia .right.bottom{
+		bottom: 35px!important;
+		right: 12%!important;
+	}
+}
+.figure.banner-with-effects .center.center {
+  top: 50%;
+  left: 50%;
+  margin: -1.7em 0 0 -5em;
+}
+
+.figure.banner-with-effects .left.center {
+  left: 1.2em;
+  top: 50%;
+  margin: -1.3em 0 0 0;
+  bottom: auto;
+  right: auto;
+}
+
+.figure.banner-with-effects .right.center {
+  right: 0.538em;
+  top: 50%;
+  margin: -1.3em 0 0 0;
+  bottom: auto;
+  left: auto;
+}
+
+.figure.banner-with-effects .right.bottom {
+	right: 1.3em;
+	bottom: 20px;
+	top: auto;
+	left: auto;
+}
+
+.figure.banner-with-effects .center.top {
+  top: 0.538em;
+  left: 50%;
+  margin: 0 0 0 -9.5em;
+  bottom: auto;
+  right: auto;
+}
+
+.figure.banner-with-effects .center.bottom {
+	bottom: 40px;
+	left: 50%;
+	margin: 0 0 0 -4.5em;
+	top: auto;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+.figure.effect-lily img {
+  width: -webkit-calc(100% + 40px);
+  width: calc(100% + 40px);
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px,0, 0);
+  transform: translate3d(-40px,0,0);
+  max-width: inherit;
+}
+
+.figure.effect-lily .figcaption {
+}
+
+.figure.effect-lily .banner-content,
+.figure.effect-lily.with-button a {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+.figure.effect-lily .banner-content {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+.figure.effect-lily.with-button a {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+
+.figure.effect-lily.with-button a.right.bottom {
+  margin: 0 20px 20px 0;
+}
+
+.figure.effect-lily:hover img,
+.figure.effect-lily:hover .banner-content,
+.figure.effect-lily.with-button:hover a {
+  opacity: 1;
+}
+
+.figure.effect-lily:hover img,
+.figure.effect-lily:hover .banner-content,
+.figure.effect-lily.with-button:hover a {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+.figure.effect-sadie .figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(57, 42, 58, 0) 0%, rgba(51, 52, 74,0.3) 94%);
+  background: linear-gradient(to bottom, rgba(57, 42, 58, 0) 0%, rgba(51, 52, 74, 0.3) 94%);
+  content: '';
+  opacity: 0;
+  -webkit-transform: translate3d(0,50%,0);
+  transform: translate3d(0,50%,0);
+}
+
+.figure.effect-sadie img {
+  max-width: 100% !important;
+}
+
+.figure.effect-sadie.with-button a {
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s, background 0.35s, border 0.35s;
+  transition: transform 0.35s, color 0.35s, background 0.35s, border 0.35s;
+  -webkit-transform: translate3d(0,-50%,0);
+  transform: translate3d(0,-50%,0);
+}
+
+.figure.effect-sadie.with-button a.right.bottom {
+  margin: 0 55px 0 0;
+  min-width: auto;
+}
+
+.figure.effect-sadie.with-button a.right.bottom.btn_type_3 {
+  bottom:20px;
+  min-width: auto;
+  margin-right:76px;
+}
+
+.figure.effect-sadie .figcaption::before,
+.figure.effect-sadie .banner-content,
+.figure.effect-sadie.with-button a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s, background 0.35s, border 0.35s;
+  transition: opacity 0.35s, transform 0.35s, background 0.35s, border 0.35s;
+}
+
+.figure.effect-sadie .banner-content {
+  opacity: 0.8;
+  -webkit-transform: translate3d(0,10px,0);
+  transform: translate3d(0,10px,0);
+}
+
+.figure.effect-sadie.with-button:hover a {
+  -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+  transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+.figure.effect-sadie:hover .figcaption::before,
+.figure.effect-sadie:hover .banner-content,
+.figure.effect-sadie.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.effect-sadie:hover .banner-content {
+  -webkit-transform: translate3d(0,-10px,0);
+  transform: translate3d(0,-10px,0);
+}
+
+
+/*---------------*/
+/***** Sadie1 *****/
+/*---------------*/
+.figure.effect-sadie1 .figcaption::before {
+	background: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+.figure.effect-sadie1 img {
+  max-width: 100% !important;
+}
+
+.figure.effect-sadie1.with-button a {
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+  transition: transform 0.35s, color 0.35s;
+  -webkit-transform: translate3d(0,-50%,0);
+  transform: translate3d(0,-50%,0);
+}
+
+.figure.effect-sadie1.with-button a.right.bottom {
+	margin: 0 44px 0 0;
+	min-width: auto;
+}
+
+.figure.effect-sadie1.with-button a.left.bottom {
+	margin:  0 0 0 12px;
+	min-width: auto;
+}
+
+.figure.effect-sadie1 .figcaption::before,
+.figure.effect-sadie1 .banner-content,
+.figure.effect-sadie1.with-button a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.figure.effect-sadie1 .banner-content {
+  opacity: 0.8;
+  -webkit-transform: translate3d(0,10px,0);
+  transform: translate3d(0,10px,0);
+}
+
+.figure.effect-sadie1.with-button:hover a {
+  -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+  transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+.figure.effect-sadie1:hover .figcaption::before,
+.figure.effect-sadie1:hover .banner-content,
+.figure.effect-sadie1.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.effect-sadie1:hover .banner-content {
+  -webkit-transform: translate3d(0,-10px,0);
+  transform: translate3d(0,-10px,0);
+}
+
+
+/*---------------*/
+/***** Roxy *****/
+/*---------------*/
+
+/*.figure.effect-roxy {
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+}*/
+
+.figure.effect-roxy img {
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  max-height: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.figure.effect-roxy .figcaption::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.figure.effect-roxy .figcaption {
+  padding: 3em;
+  text-align: left;
+}
+
+.figure.effect-roxy .banner-content,
+.figure.effect-roxy.with-button a {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.figure.effect-roxy .banner-content {
+  opacity: 0.8;
+}
+
+.figure.effect-roxy:hover img {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.effect-roxy:hover .figcaption::before,
+.figure.effect-roxy:hover .banner-content,
+.figure.effect-roxy.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+.figure.effect-bubba {
+  background: #transparent;
+}
+
+.figure.effect-bubba.with-button .right.bottom.btn_type_3 {
+	margin-right:80px;
+}
+
+.figure.banner-with-effects.effect-bubba .left.bottom {
+    bottom: 28px;
+}
+
+.figure.effect-bubba img {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+.figure.effect-bubba img {
+  max-width: 100% !important;
+}
+
+.figure.effect-bubba:hover img {
+  opacity: 0.95;
+}
+
+.figure.effect-bubba .figcaption::before,
+.figure.effect-bubba .figcaption::after {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.figure.effect-bubba .figcaption::before {
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.figure.effect-bubba .figcaption::after {
+  border-right: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  -webkit-transform: scale(1,0);
+  transform: scale(1,0);
+}
+
+.figure.effect-bubba .banner-content {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+}
+
+.figure.effect-bubba .banner-content.right.top {
+  padding: 5px 20px!important;
+}
+
+.figure.effect-bubba.with-button a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s, background 0.35s, border 0.35s;
+  transition: opacity 0.35s, transform 0.35s, background 0.35s, border 0.35s;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+  margin: 0 20px;
+}
+
+.figure.effect-bubba:hover .figcaption::before,
+.figure.effect-bubba:hover .figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.figure.effect-bubba:hover .banner-content,
+.figure.effect-bubba.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.effect-bubba.with-button a.right.bottom {
+    bottom: 1.538em;
+}
+
+/*---------------*/
+/***** Romeo *****/
+/*---------------*/
+
+.figure.effect-romeo {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.figure.effect-romeo img {
+  max-width: 100% !important;
+}
+
+.figure.effect-romeo img,
+.figure.effect-romeo.with-button a,
+.figure.effect-romeo a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,300px);
+  transform: translate3d(0,0,300px);
+}
+
+.figure.effect-romeo:hover img,
+.figure.effect-romeo.with-button:hover a {
+  opacity: 0.9;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.effect-romeo .figcaption::before,
+.figure.effect-romeo .figcaption::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  background: rgba(255,255,255,0.5);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.figure.effect-romeo:hover .figcaption::before {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+  transform: translate3d(-50%,-50%,0) rotate(45deg);
+}
+
+.figure.effect-romeo:hover .figcaption::after {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
+  transform: translate3d(-50%,-50%,0) rotate(-45deg);
+}
+
+.figure.effect-romeo .banner-content {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  padding: 0 20px;
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
+}
+
+.figure.effect-romeo:hover .banner-content {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+
+.figure.effect-oscar {
+}
+
+.figure.effect-oscar img {
+  opacity: 1;
+  max-width: 100% !important;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+.figure.effect-oscar .figcaption {
+  background: transparent;
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+}
+
+.figure.effect-oscar .figcaption::before {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  content: '';
+}
+
+.figure.effect-oscar .figcaption::before,
+.figure.effect-oscar .banner-content,
+.figure.effect-oscar.with-button a {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.figure.effect-oscar .banner-content {
+  padding: 0 20px;
+  opacity: 1;
+  transform: none;
+}
+
+.figure.effect-oscar:hover .figcaption::before,
+.figure.effect-oscar.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.figure.effect-oscar:hover .figcaption {
+  background-color: rgba(58,52,42,0);
+}
+
+.figure.effect-oscar:hover img {
+  opacity: 0.8;
+}
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+.figure.effect-ruby {
+}
+
+.figure.effect-ruby img {
+  opacity: 0.8;
+  max-width: 100% !important;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.figure.effect-ruby:hover img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.figure.effect-ruby .banner-content {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-20px,20px,0) scale(1.1);
+  transform: translate3d(-20px,20px,0) scale(1.1);
+} 
+
+.figure.effect-ruby.with-button a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+}
+
+.figure.effect-ruby:hover .banner-content,
+.figure.effect-ruby.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+.figure.effect-ruby.with-button .banner-content.center.center {
+  -webkit-transform: translate3d(0px,13px,0) scale(1.1);
+  transform: translate3d(0px,13px,0) scale(1.1);
+}
+
+.figure.effect-ruby:hover .banner-content.center.center {
+  opacity: 1;
+  -webkit-transform: translate3d(5px,13px,0) scale(1);
+  transform: translate3d(5px,13px,0) scale(1);
+}
+
+.figure.effect-ruby.with-button a.right.center {
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+
+.figure.effect-milo {
+}
+
+.figure.effect-milo img {
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px,0,0) scale(1.12);
+  transform: translate3d(-30px,0,0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.figure.effect-milo:hover img {
+  opacity: 0.8;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+.figure.effect-milo .banner-content {
+  padding: 0 20px 0 0;
+  text-align: right;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(40px,0,0);
+  transform: translate3d(40px,0,0);
+}
+
+.figure.effect-milo.with-button a {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.figure.effect-milo:hover .banner-content,
+.figure.effect-milo.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.figure.banner-with-effects.effect-milo .right.center {
+    margin: -1.55em 0 0;
+    right: 25px;
+}
+
+/*---------------*/
+/***** Dexter *****/
+/*---------------*/
+
+.figure.effect-dexter {
+  background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
+}
+
+.figure.effect-dexter img {
+  max-width: 100% !important;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+.figure.effect-dexter:hover img {
+  opacity: 0.4;
+}
+
+.figure.effect-dexter .figcaption::after {
+  display: none;
+}
+
+.figure.effect-dexter .banner-content {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100px,0);
+  transform: translate3d(0,-100px,0);
+}
+
+.figure.effect-dexter.with-button a {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100px,0);
+  transform: translate3d(0,-100px,0);
+}
+
+.figure.effect-dexter:hover .banner-content,
+.figure.effect-dexter.with-button:hover a {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+.figure.effect-julia img {
+	max-width: 100% !important;
+	-webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+	transition: opacity 0.6s, transform 0.6s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.figure.effect-julia:hover img {
+	opacity: 1;
+	-webkit-transform: scale3d(1.05,1.05,1.05);
+	transform: scale3d(1.05,1.05,1.05);
+}
+
+.figure.effect-julia.with-button a {
+	-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;
+	transition:opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+}
+
+.figure.effect-julia.with-button a.right.bottom {
+	right: 22%;
+}
+
+.figure.effect-julia.with-button:hover a {
+	opacity:1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+.figure.banner-with-effects.effect-julia .left.center {
+	left: 2.2em;
+	top: 35%;
+	margin: -1.3em 0 0 0;
+	bottom: auto;
+	right: auto;
+}
+@media screen and (max-width: 480px){
+.figure.banner-with-effects.effect-julia .left.center {	
+top:44%!important;
+}
+}
+
+
+/*---------------*/
+/***** Julia 1 *****/
+/*---------------*/
+.figure.effect-julia1 img {
+	max-width: 100% !important;
+	-webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+	transition: opacity 0.6s, transform 0.6s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+.figure.effect-julia1:hover img {
+	opacity: 1;
+	-webkit-transform: scale3d(0.95,0.95,0.95);
+	transform: scale3d(0.95,0.95,0.95);
+}
+
+.figure.effect-julia1.with-button a {
+	-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;
+	transition:opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+}
+
+.figure.effect-julia1.with-button:hover a {
+	opacity:1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+
+/* Button Type */
+.btn_type_1:after{
+	content:'\f178';
+	font-family:'FontAwesome';
+	margin-left:10px;
+	border:1px solid;
+	border-radius:50%;
+	font-size:10px;
+	padding:3px;
+}
+.btn_type_1{
+	padding-right:3px;
+}
+.btn_type_2:before{
+	content:'\f07a';
+	font-family:'FontAwesome';
+	font-size:14px;
+	margin-right:10px;
+}
+.btn_type_3{
+	font-weight:bold;
+	padding:10px 20px;
+	background:#00aeef!important;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid transparent;
+	-webkit-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.btn_type_3:hover{
+	background:transparent!important;
+	border:1px solid #00ADEF;
+}
+/* Special Css */
+
+div.figure.effect-sadie1+div.figure.effect-sadie{
+	margin-left:4%;
+}
+div.figure.banner-width{
+	width:48%;
+	float:left;
+	margin-bottom: 28px;
+}
+@media screen and (max-width:1200px) and (min-width:800px){
+div.figure.banner-width{
+width:47%;
+}	
+}
+@media screen and (max-width: 800px){
+div.figure.banner-width{
+	width:100%;
+	float:none;
+	margin-bottom: 28px;
+}
+div.figure.effect-sadie1+div.figure.effect-sadie{
+	margin-left:0;
+}
+}
+@media screen and (max-width: 480px){
+.figure .banner-content  span{
+	font-size:14px!important;
+}
+.figure .banner-content  span br{
+	display:none;
+}	
+}
+.figure.banner-with-effects.effect-zoom img{
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.figure.banner-with-effects.effect-zoom:hover img{
+    transform: scale(1.05, 1.05) !important;
+}
