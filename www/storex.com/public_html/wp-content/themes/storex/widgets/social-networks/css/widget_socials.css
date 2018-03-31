@@ -1,0 +1,44 @@
+.widget.pt-socials-widget ul {
+	list-style-type: none;
+	margin: 0;
+	display: block;
+}
+.widget.pt-socials-widget ul li {
+	float:none;
+	margin: 0;
+	display: block;
+	list-style: none;
+	border: 0 none;
+}
+.widget.pt-socials-widget ul li:before {
+	display: none !important;
+	content: '';
+	padding: 0;
+	margin: 0;
+}
+.widget.pt-socials-widget ul.inline-mode {
+	display: inline-block;
+	vertical-align: middle;
+}
+.widget.pt-socials-widget ul.inline-mode:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.widget.pt-socials-widget ul.inline-mode li {
+	display: inline-block;
+}
+.widget.pt-socials-widget .widget-title {
+}
+.widget.pt-socials-widget ul.icons-small {
+	font-size: 16px;
+}
+.widget.pt-socials-widget ul.icons-medium {
+	font-size: 24px;
+}
+.widget.pt-socials-widget ul.icons-large {
+	font-size: 32px;
+}
+.widget.pt-socials-widget ul li a {
+	outline: none;
+}

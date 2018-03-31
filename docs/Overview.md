@@ -6,14 +6,14 @@
 Exposed port and volumes
 ----
 
-The image exposes ports `8080`, `3306`, `80`, `9000`, ``and exports four volumes:
+The image exposes ports `8080`, `3306`, `80`, `9000`, `9056`, `9071`, ``and exports four volumes:
 
 * `/logs/httpd`, containing HTTPD log files.
 * `/logs/mysql` containing MYSQL log files.
 * `/logs/nginx` containing NGINX log files.
 * `/etc/nginx`, where NGINX data files are stores.
 * `/etc/httpd`, where HTTPD data files are stores.
-* `/etc/php-fpm.d/www.conf`, where PHP-FPM data files configure are stores.
+* `/etc/php`, where PHP-FPM data files configure are stores.
 * `/www`, used as Apache's [DocumentRoot directory](http://httpd.apache.org/docs/2.4/en/mod/core.html#documentroot).
 
 

@@ -1,0 +1,95 @@
+# Translation of Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-30 23:30:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: ajax-thumbnail-rebuild.php:197
+msgid "Note: If you've changed the dimensions of your thumbnails, existing thumbnail images will not be deleted."
+msgstr "Note: If you've changed the dimensions of your thumbnails, existing thumbnail images will not be deleted."
+
+#: ajax-thumbnail-rebuild.php:201
+msgid "Rebuild All Thumbnails"
+msgstr "Rebuild All Thumbnails"
+
+#: ajax-thumbnail-rebuild.php:205
+msgid "Last image"
+msgstr "Last image"
+
+#: ajax-thumbnail-rebuild.php:208
+msgid "If you find this plugin useful, I'd be happy to read your comments on the %splugin homepage%s. If you experience any problems, feel free to leave a comment too."
+msgstr "If you find this plugin useful, I'd be happy to read your comments on the %splugin homepage%s. If you experience any problems, feel free to leave a comment too."
+
+#. Plugin Name of the plugin/theme
+msgid "AJAX Thumbnail Rebuild"
+msgstr "AJAX Thumbnail Rebuild"
+
+#. Plugin URI of the plugin/theme
+msgid "http://breiti.cc/wordpress/ajax-thumbnail-rebuild"
+msgstr "http://breiti.cc/wordpress/ajax-thumbnail-rebuild"
+
+#. Description of the plugin/theme
+msgid "Rebuild all thumbnails"
+msgstr "Rebuild all thumbnails"
+
+#. Author of the plugin/theme
+msgid "junkcoder"
+msgstr "junkcoder"
+
+#. Author URI of the plugin/theme
+msgid "http://breiti.cc"
+msgstr "http://breiti.cc"
+
+#: ajax-thumbnail-rebuild.php:34
+msgid "Rebuild all Thumbnails"
+msgstr "Rebuild all Thumbnails"
+
+#: ajax-thumbnail-rebuild.php:34
+msgid "Rebuild Thumbnails"
+msgstr "Rebuild Thumbnails"
+
+#: ajax-thumbnail-rebuild.php:60 ajax-thumbnail-rebuild.php:105
+msgid "Reading attachments..."
+msgstr "Reading attachments..."
+
+#: ajax-thumbnail-rebuild.php:68 ajax-thumbnail-rebuild.php:134
+msgid "Done."
+msgstr "Done."
+
+#: ajax-thumbnail-rebuild.php:72 ajax-thumbnail-rebuild.php:157
+msgid "Error"
+msgstr "Error"
+
+#: ajax-thumbnail-rebuild.php:85
+msgid "Ajax Thumbnail Rebuild"
+msgstr "Ajax Thumbnail Rebuild"
+
+#: ajax-thumbnail-rebuild.php:126
+msgid "No attachments found."
+msgstr "No attachments found."
+
+#: ajax-thumbnail-rebuild.php:137
+msgid "\"Rebuilding \" + %s + \" of \" + %s + \" (\" + %s + \")...\""
+msgstr "\"Rebuilding \" + %s + \" of \" + %s + \" (\" + %s + \")...\""
+
+#: ajax-thumbnail-rebuild.php:174
+msgid "Select which thumbnails you want to rebuild"
+msgstr "Select which thumbnails you want to rebuild"
+
+#: ajax-thumbnail-rebuild.php:175
+msgid "Toggle all"
+msgstr "Toggle all"
+
+#: ajax-thumbnail-rebuild.php:185
+msgid "cropped"
+msgstr "cropped"
+
+#: ajax-thumbnail-rebuild.php:193
+msgid "Only rebuild featured images"
+msgstr "Only rebuild featured images"

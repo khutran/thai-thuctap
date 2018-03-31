@@ -1,9 +1,0 @@
-[Tue Mar 27 09:11:31.396087 2018] [proxy_fcgi:error] [pid 130:tid 139904644904704] (104)Connection reset by peer: [client 172.22.0.4:34784] AH01074: Failed writing Environment to :8080:
-[Tue Mar 27 09:11:31.568487 2018] [proxy_fcgi:error] [pid 130:tid 139904636512000] (104)Connection reset by peer: [client 172.22.0.4:34796] AH01074: Failed writing Environment to :8080:, referer: http://storex.co/test.php
-[Tue Mar 27 09:11:32.057189 2018] [proxy_fcgi:error] [pid 128:tid 139904382129920] (32)Broken pipe: [client 172.22.0.4:34800] AH01074: Failed writing Environment to :8080:
-[Tue Mar 27 09:11:32.164905 2018] [proxy_fcgi:error] [pid 130:tid 139904628119296] (104)Connection reset by peer: [client 172.22.0.4:34804] AH01074: Failed writing Environment to :8080:, referer: http://storex.co/test.php
-[Tue Mar 27 09:11:32.271949 2018] [proxy_fcgi:error] [pid 130:tid 139904524740352] (104)Connection reset by peer: [client 172.22.0.4:34808] AH01074: Failed writing Environment to :8080:
-[Tue Mar 27 09:11:32.363922 2018] [proxy_fcgi:error] [pid 128:tid 139904365344512] (104)Connection reset by peer: [client 172.22.0.4:34812] AH01074: Failed writing Environment to :8080:, referer: http://storex.co/test.php
-[Tue Mar 27 09:11:32.452406 2018] [proxy_fcgi:error] [pid 130:tid 139904516347648] (32)Broken pipe: [client 172.22.0.4:34816] AH01074: Failed writing Environment to :8080:
-[Tue Mar 27 09:11:32.528911 2018] [proxy_fcgi:error] [pid 128:tid 139904323380992] (32)Broken pipe: [client 172.22.0.4:34822] AH01074: Failed writing Environment to :8080:, referer: http://storex.co/test.php
-[Tue Mar 27 09:11:34.617458 2018] [proxy_fcgi:error] [pid 130:tid 139904507954944] (104)Connection reset by peer: [client 172.22.0.4:34850] AH01074: Failed writing Environment to :8080:

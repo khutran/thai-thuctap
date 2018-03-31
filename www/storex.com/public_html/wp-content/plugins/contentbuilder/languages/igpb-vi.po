@@ -1,0 +1,2075 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IG Pagebuilder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 14:41+0700\n"
+"PO-Revision-Date: 2013-12-20 14:41+0700\n"
+"Last-Translator: \n"
+"Language-Team: InnoGears <http://www.innogears.com/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: VIET NAM\n"
+"X-Poedit-SearchPath-0: E:\\BB-projects\\works\\WPR\\itpagebuilder\\wp-content\\plugins\\ig-pagebuilder\n"
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/pb.php:190
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/pb.php:757
+msgid "Page Builder"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/pb.php:366
+msgid "empty shortcode name / parameters"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/pb.php:756
+msgid "Classic Editor"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:23
+msgid "Are you sure you want to delete the whole row including all elements it contains?"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:24
+msgid "Are you sure you want to delete the whole column including all elements it contains?"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:25
+msgid "Are you sure you want to delete the element?"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:26
+msgid "A table must has atleast 1 columns. You can't remove this column"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:27
+msgid "A table must has atleast 2 rows. You can't remove this row"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:28
+msgid "Saving content! Please wait a moment."
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:29
+msgid "Settings"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:30
+msgid "Page Modal"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:31
+msgid "Convert to "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:33
+msgid "No audio source selected"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:34
+msgid "Select Destination Marker"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:35
+msgid "No video file selected"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:37
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/destination.php:21
+msgid "None"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:38
+msgid "The link is invalid"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:39
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:40
+#, php-format
+msgid "Single %s"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:41
+msgid "copy"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:42
+#, php-format
+msgid "%s Filter"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:43
+msgid "Start From"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:44
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:542
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:704
+msgid "Menu"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:45
+msgid "Filter By"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:46
+msgid "Attributes"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:47
+msgid "Attribute"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:48
+msgid "Option Attribute"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:49
+msgid "After turning off, the content built with PageBuilder will be parsed to plain HTML code and inserted to default editor. Are you sure you want to turn PageBuilder off?"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:50
+msgid "(Untitled )"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:51
+msgid "Inno Shortcodes"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:56
+msgid "You used up to 30 characters"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:297
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:301
+msgid "View"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:301
+msgid "Views"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:344
+msgid "Save"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:345
+msgid "Cancel"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:415
+msgid "Widget"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:443
+msgid "Edit element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:444
+msgid "Duplicate element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/functions.php:445
+msgid "Delete element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:28
+msgid "Hybrid"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:29
+msgid "Roadmap"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:30
+msgid "Satellite"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:31
+msgid "Terrain"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:65
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:79
+msgid "No Styling"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:66
+msgid "Rounded"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:67
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:250
+msgid "Circle"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:68
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:80
+msgid "Thumbnail"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:91
+msgid "Design option 1"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:92
+msgid "Design option 2"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:103
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:118
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:132
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:171
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:187
+msgid "Default"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:104
+msgid "Active (Grey)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:105
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:134
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:174
+msgid "Success (Green)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:106
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:135
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:175
+msgid "Warning (Orange)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:107
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:136
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:176
+msgid "Danger (Red)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:119
+msgid "Success"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:120
+msgid "Info"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:121
+msgid "Danger"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:133
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:173
+msgid "Info (Light Blue)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:147
+msgid "Multiple bars"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:148
+msgid "Stacked"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:159
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:297
+msgid "Solid"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:160
+msgid "Striped"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:172
+msgid "Primary (Dark Blue)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:177
+msgid "Link"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:188
+msgid "Mini"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:189
+msgid "Small"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:190
+msgid "Large"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:200
+msgid "Current Browser"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:201
+msgid "New Browser"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:202
+msgid "Lightbox"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:212
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:225
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:273
+msgid "Left"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:213
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:226
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:275
+msgid "Right"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:223
+msgid "Top"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:224
+msgid "Bottom"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:251
+msgid "Square"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:261
+msgid "Standard fonts"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:262
+msgid "Google fonts"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:272
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:314
+msgid "Inherit"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:274
+msgid "Center"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:298
+msgid "Dotted"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:299
+msgid "Dashed"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:300
+msgid "Double"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:301
+msgid "Groove"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:302
+msgid "Ridge"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:303
+msgid "Inset"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:304
+msgid "Outset"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:315
+msgid "Italic"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:316
+msgid "Normal"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:317
+msgid "Bold"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:364
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:420
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:583
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:715
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1130
+msgid "Root"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:374
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:456
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:480
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:492
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:735
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1136
+msgid "( no title )"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:468
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:601
+msgid "( no name )"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:513
+msgid "No Action"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:514
+msgid "Go to URL"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:515
+msgid "Go to Single Entry"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:518
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:546
+msgid "Go to Taxonomy Overview Page"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:543
+msgid "Single Entries"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:560
+msgid "Show Large Image"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:791
+msgid "Product Type"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1004
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1009
+msgid "Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1005
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1010
+msgid "Comment Count"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1006
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1011
+msgid "Date"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1055
+msgid "Name"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1056
+msgid "Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1057
+msgid "Slug"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1058
+msgid "Count"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1077
+msgid " - No ordering - "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1093
+msgid "Ascending"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1094
+msgid "Descending"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1176
+msgid "Free text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/type.php:1177
+msgid "Yes / No"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/button-group.php:24
+msgid "Convert to"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/group.php:21
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/list-extra.php:27
+msgid "Add Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/group.php:33
+msgid "Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/group.php:64
+msgid "Items"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/preview.php:18
+msgid "Hide Live Preview"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/preview.php:19
+msgid "Show Live Preview"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/table.php:67
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/table.php:82
+msgid "Delete"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/table.php:90
+msgid "Add Row"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/helper/html/table.php:91
+msgid "Add Column"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/modal.php:149
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/modal.php:165
+msgid "Margin"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/modal.php:157
+msgid "Margin Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/widget.php:29
+msgid "Presentation of any PageBuilder element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/widget.php:31
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/widget.php:79
+msgid "PageBuilder Element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/widget.php:140
+msgid "No elements have been created yet!  "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/objects/widget.php:144
+msgid "Element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/column.php:55
+msgid "Delete column"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/column.php:57
+msgid "Add Element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:38
+msgid "Width"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:42
+msgid "Boxed"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:42
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:115
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:136
+msgid "Full"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:45
+msgid "Background"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:51
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:59
+msgid "Solid Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:52
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:79
+msgid "Gradient Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:53
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:102
+msgid "Pattern"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:54
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:122
+msgid "Image"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:94
+msgid "Gradient Direction"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:98
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:116
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:208
+msgid "Vertical"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:98
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:117
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:209
+msgid "Horizontal"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:110
+msgid "Repeat"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:130
+msgid "Stretch"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:137
+msgid "Cover"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:138
+msgid "Contain"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:143
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:270
+msgid "Position"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:163
+msgid "Enable Paralax"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:167
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:98
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:105
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:66
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:124
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:184
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:69
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:77
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:85
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:111
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:118
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:125
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:148
+msgid "Yes"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:167
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:98
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:105
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:66
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:125
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:185
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:69
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:77
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:85
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:111
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:118
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:125
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:148
+msgid "No"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:171
+msgid "Border"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:201
+msgid "Padding"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:238
+msgid "Move Up"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:239
+msgid "Move Down"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:245
+msgid "Add column"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/shortcode/layout/row.php:247
+msgid "Delete row"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/utils/deactivate.php:37
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/utils/deactivate.php:39
+msgid "No, take me back"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/utils/deactivate.php:58
+msgid "After deactivating, all content built with PageBuilder will be parsed to plain HTML code. Are you sure you want to deactivate PageBuilder plugin?"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/utils/deactivate.php:63
+msgid "Yes, deactivate plugin"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/core/utils/deactivate.php:77
+msgid "Nonce is invalid!"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:25
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:48
+msgid "Accordion"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:26
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:23
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:23
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:26
+msgid "Typography"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:43
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:43
+msgid "Tab"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:48
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:25
+msgid "Carousel"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:53
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:53
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:177
+msgid "List"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:62
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:32
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:50
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:32
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:62
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:49
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:36
+msgid "Element Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:68
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:38
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:56
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:38
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:68
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:55
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:42
+msgid "Set title for current element for identifying easily"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:86
+msgid "Initial Open"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:94
+msgid "Allow Multiple Opening"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/accordion.php:101
+msgid "Enable Filter"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:22
+msgid "Alert"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:41
+msgid "Alert Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:54
+msgid "Style"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:59
+msgid "Style Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/alert.php:62
+msgid "Allow to close"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:23
+msgid "Audio"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:24
+msgid "Media"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:42
+msgid "Local file"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:43
+msgid "SoundCloud"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:60
+msgid "Audio link"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:68
+msgid "File URL"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:83
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:139
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:94
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:260
+msgid "Dimension"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:93
+msgid "Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:101
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:149
+msgid "Elements"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:109
+msgid "Artwork"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:110
+msgid "Download Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:111
+msgid "Share Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:112
+msgid "BPM"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:113
+msgid "Play Count"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:114
+msgid "Comments"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:118
+msgid "Auto Play"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:129
+msgid "Start Track"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:157
+msgid "Play/Pause Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:158
+msgid "Current Time"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:159
+msgid "Time Rail"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:160
+msgid "Track Duration"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:161
+msgid "Volume Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:162
+msgid "Volume Slider"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:166
+msgid "Start volume"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:178
+msgid "Loop"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:193
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:57
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:86
+msgid "Alignment"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:198
+msgid "No Alignment"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:437
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:509
+msgid "Username"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:438
+msgid "Country"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:439
+msgid "Full Name"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:474
+msgid "Genre"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:475
+msgid "User"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:476
+msgid "Format"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:477
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/audio.php:510
+msgid "Duration"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:22
+msgid "Button Bar"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:62
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:91
+msgid "Alignment Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:65
+msgid "Show Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:70
+msgid "Show Title Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:73
+msgid "Show Icon"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:78
+msgid "Show Icon Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:81
+msgid "Group Buttons"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/buttonbar.php:86
+msgid "Group Button Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:107
+msgid "Show Indicator"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:114
+msgid "Show Arrows"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:121
+msgid "Automatic Cycling"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:129
+msgid "Cycling Interval"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/carousel.php:144
+msgid "Pause on mouse over"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/content.php:104
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/content.php:122
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:544
+msgid "(no title)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:30
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:35
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:38
+msgid "Content Clips"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:31
+msgid "Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:58
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:45
+msgid "Content Source"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:63
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:50
+msgid "Content Source Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:67
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:54
+msgid "Item Filter"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:83
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:70
+msgid "Order By"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:110
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:97
+msgid "Order By Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:127
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:114
+msgid "Start From Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:145
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:132
+msgid "Depth Level"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:151
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:138
+msgid "Depth Level Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:154
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:141
+msgid "Items Amount"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:160
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:147
+msgid "Items Amount Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:173
+msgid "Presentation"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:177
+msgid "Slide"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:177
+msgid "Primary - Secondary"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:181
+msgid "Items per Slide"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:190
+msgid "Slider Elements"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:197
+msgid "Arrows"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:198
+msgid "Indicator"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:203
+msgid "Layout"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:214
+msgid "Items per Row"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:223
+msgid "Items per Page"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:232
+msgid "Pagination"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:236
+msgid "Number"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:236
+msgid "Load on srolling"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:240
+msgid "Content Elements"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:246
+msgid "Category"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:248
+msgid "Date / Time"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:249
+msgid "Author"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:252
+msgid "Social Share"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:280
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:376
+msgid "Length Limitation"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:296
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:392
+msgid "Words"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:296
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:392
+msgid "Characters"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:304
+msgid "Font"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:308
+msgid "Custom"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:311
+msgid "Font Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:316
+msgid "Font Face"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:337
+msgid "Font Face Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:342
+msgid "Font Attributes"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:370
+msgid "Font Attribute Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:401
+msgid "Date Time format"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:405
+msgid "Custom format"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:421
+msgid "Social Networks"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:428
+msgid "Facebook"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:429
+msgid "Twitter"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:430
+msgid "Google+"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:494
+msgid ", "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:495
+msgid "No category"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:497
+msgid "Tags: "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:499
+msgid " "
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentclips.php:551
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:23
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:27
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:28
+msgid "Content List"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/contentlist.php:24
+msgid "Extra"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/divider.php:22
+msgid "Divider"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/divider.php:72
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:145
+msgid "Border Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:23
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:28
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:29
+msgid "Google Maps"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:63
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:120
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:62
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/testimonial.php:104
+msgid "Container Style"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:68
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:125
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:67
+msgid "Container Style Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:95
+msgid "Dimension Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:109
+msgid "Zoom Level"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:115
+msgid "Zoom Level Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:118
+msgid "Map Type"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:123
+msgid "Map Type Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:133
+msgid "Street View"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:134
+msgid "Zoom Controls"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:135
+msgid "Pan Controls"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:136
+msgid "Map Type Controls"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:137
+msgid "Scale Controls"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:138
+msgid "Overview Map Controls"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/googlemap.php:140
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:107
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:187
+msgid "Elements Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:25
+msgid "Heading"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:46
+msgid "Tag"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:51
+msgid "Tag Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:54
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:22
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:27
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:47
+msgid "Text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:59
+msgid "Your heading text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:60
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:52
+msgid "Text Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:143
+msgid "Bottom Border"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:170
+msgid "Bottom Border Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:174
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:264
+msgid "Bottom Padding"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/heading.php:186
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:276
+msgid "Bottom Padding Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:44
+msgid "Image File"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:49
+msgid "Image File Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:52
+msgid "Image Size"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:55
+msgid "Image Size Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:58
+msgid "Alt Text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:63
+msgid "Alt Text Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:66
+msgid "On Click"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:75
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:78
+msgid "Large Image Size"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:87
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:84
+msgid "URL Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:91
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:88
+msgid "Single Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:106
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:102
+msgid "Open in"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:111
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:107
+msgid "Open in Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/image.php:144
+msgid "Fade in Animations"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:89
+msgid "Icon Position"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:95
+msgid "Icon Position Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:99
+msgid "Icon Background"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:125
+msgid "Icon Background Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:130
+msgid "Icon Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:146
+msgid "Icon Color Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:154
+msgid "Show Heading"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:163
+msgid "Heading Font"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/list.php:169
+msgid "Heading Font Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:22
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:27
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:28
+msgid "Pricing Table"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:55
+msgid "Attributes Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:65
+msgid "Options"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:69
+msgid "(Untitled)"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:85
+msgid "Design"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:90
+msgid "Design Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:104
+msgid "Price"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/pricingtable.php:105
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:183
+msgid "Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:22
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:27
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:28
+msgid "Progress Bar"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:67
+msgid "Presentation Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:86
+msgid "Show Percentage"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:91
+msgid "Show Percentage Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:94
+msgid "Make Active"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/progressbar.php:99
+msgid "Make Active Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:22
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:26
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:28
+msgid "Promotion Box"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:46
+msgid "Promotion Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:49
+msgid "Promotion Box Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:50
+msgid "Promotion Title Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:55
+msgid "Promotion Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:59
+msgid "Promotion Content Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:62
+msgid "Button Title"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:67
+msgid "Button Title Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:70
+msgid "Button Link"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:75
+msgid "Button Link Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:116
+msgid "Background Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:132
+msgid "Background Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:148
+msgid "Border Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:164
+msgid "Border Color Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:168
+msgid "Show Shadow"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:173
+msgid "Show Shadow Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:281
+msgid "Bottom Margin"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:293
+msgid "Bottom Margin Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:298
+msgid "Size"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:303
+msgid "Button Size Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:308
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:84
+msgid "Button Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/promobox.php:313
+msgid "Button Color Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:22
+msgid "QR Code"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:40
+msgid "Data"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:45
+msgid "Data Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:49
+msgid "Image ALT Text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:53
+msgid "Wordpress themes from www.www.innogears.com"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:54
+msgid "Image ALT Text Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:78
+msgid "QRCode Sizes"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/qrcode.php:86
+msgid "QRCode Sizes Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tab.php:95
+msgid "Fade Effect"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tab.php:104
+msgid "Tab Position"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/table.php:25
+msgid "Table"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/table.php:50
+msgid "Table Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/table.php:75
+msgid "Bordered"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/table.php:75
+msgid "Hover"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/testimonial.php:25
+msgid "Testimonial"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/testimonial.php:92
+msgid "User Image"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/testimonial.php:95
+msgid "User Name"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/testimonial.php:96
+msgid "User Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:48
+msgid "Text Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:49
+msgid "Enter some content for this textblock"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:62
+msgid "Enable Dropcap"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/text.php:67
+msgid "Enable Dropcap Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:26
+msgid "Tooltip"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:51
+msgid "Your text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:55
+msgid "Tooltip Content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:59
+msgid "Your tooltip content"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:60
+msgid "Tooltip content. Accept HTML tag"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:68
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:96
+msgid "Tooltip Position"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:76
+msgid "Tooltips In Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/tooltip.php:104
+msgid "Delay"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:23
+msgid "Video"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:43
+msgid "Youtube"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:44
+msgid "Vimeo"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:71
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:80
+msgid "Video Link"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:115
+msgid "Overlay Play Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:121
+msgid "Fullscreen Button"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:159
+msgid "Show List"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:192
+msgid "Controls Auto Hide"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:198
+msgid "Auto minimize Progress Bar"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:199
+msgid "Both after playing a couple seconds"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:200
+msgid "Never Hide"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:204
+msgid "Show Caption (CC )"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:210
+msgid "Never"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:248
+msgid "Controls Color"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:569
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/video.php:590
+msgid "Author Name"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/accordion.php:26
+msgid "Accordion Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/accordion.php:45
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/carousel.php:53
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:46
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/tab.php:45
+msgid "Body"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/accordion.php:52
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/buttonbar.php:83
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/carousel.php:60
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:54
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:70
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/tab.php:52
+msgid "Icon"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/buttonbar.php:24
+msgid "ButtonBar Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/buttonbar.php:38
+msgid "Text Button Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/buttonbar.php:89
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:60
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:76
+msgid "Icon Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/carousel.php:26
+msgid "Carousel Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:26
+msgid "Content Clip"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:45
+msgid "Source"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:53
+msgid "Categories"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:66
+msgid "Order based on"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:70
+msgid "Most recent"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:70
+msgid "Most popular"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/contentclips.php:73
+msgid "Items Number"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:23
+msgid "Marker"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:24
+msgid "Google Maps Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:43
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:39
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtablelabel.php:66
+msgid "Title Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:50
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:56
+msgid "Description of marker"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:59
+msgid "Link URL"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:64
+msgid "Link URL Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:72
+msgid "Image Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:76
+msgid "Location"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:85
+msgid "Long"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:94
+msgid "Lat"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:97
+msgid "Location Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:101
+msgid "Show Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:109
+msgid "Enable Direction"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:118
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/googlemap.php:121
+msgid "Destination"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:26
+msgid "List Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:43
+msgid "Heading Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/list.php:51
+msgid "Body Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:24
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:25
+msgid "Option"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:47
+msgid "Description Tooltip"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:63
+msgid "Price Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:66
+msgid "Button Text"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:71
+msgid "Button Text Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:123
+msgid "Featured"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtable.php:139
+msgid "Buy now"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtablelabel.php:78
+msgid "Type"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/pricingtablelabel.php:83
+msgid "Type Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:23
+msgid "Progress bar"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:24
+msgid "Progress Bar Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:41
+msgid "Percentage"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:50
+msgid "Percentage Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/progressbar.php:58
+msgid "Color Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/tab.php:26
+msgid "Tab Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/table.php:27
+msgid "Table Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/table.php:62
+msgid "Tag Name"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/table.php:70
+msgid "Row Span"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/table.php:79
+msgid "Column Span"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/table.php:88
+msgid "Row Style"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/testimonial.php:27
+msgid "Testimonial Item"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/testimonial.php:65
+msgid "User Description such as role, website"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/testimonial.php:73
+msgid "Image File for User"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/shortcodes/item/item/pricingtable.php:42
+msgid "Content Description"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:17
+msgid "Active Page Builder"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:17
+msgid "On"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:18
+msgid "Deactivate Page Builder"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:18
+msgid "Off"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:21
+msgid "Compact"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:46
+msgid "PageBuilder for this page is currently off."
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/page-builder.php:52
+msgid "PageBuilder by"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/select-elements.php:30
+msgid "Select Element"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/select-elements.php:37
+msgid "Page Elements"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/select-elements.php:38
+msgid "Widgets"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/select-elements.php:42
+msgid "Search"
+msgstr ""
+
+#: E:\BB-projects\works\WPR\itpagebuilder\wp-content\plugins\ig-pagebuilder/templates/select-elements.php:43
+msgid "Clear Search"
+msgstr ""
+

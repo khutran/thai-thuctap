@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TwiGet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-25 17:25+0530\n"
+"PO-Revision-Date: 2013-07-25 18:37+0530\n"
+"Last-Translator: Prasanna SP <prasanna@prasannasp.net>\n"
+"Language-Team:  <prasanna@prasannasp.net>\n"
+"Language: kn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e;esc_attr__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:40
+msgid "Twiget Twitter Plugin Settings"
+msgstr "ಟ್ವಿಜೆಟ್ ಟ್ವಿಟರ್ ವಿಜೆಟ್ ಜೋಡಣೆಗಳು"
+
+#: options.php:46
+msgid "Twitter API credentials"
+msgstr ""
+
+#: options.php:49
+msgid "Consumer Key"
+msgstr ""
+
+#: options.php:55
+msgid "Consumer Secret"
+msgstr ""
+
+#: options.php:61
+msgid "Access Token"
+msgstr ""
+
+#: options.php:67
+msgid "Access Token Secret"
+msgstr ""
+
+#: options.php:73
+msgid ""
+"<strong>NOTE:</strong> Twiget caches requests to Twitter to make full use of "
+"but never exceeds the Twitter API's limit of 180 requests per 15 minutes."
+"<br /> Therefore, it is recommended to use the API credentials you entered "
+"above for just this website, especially so if it has a high amount of "
+"traffic."
+msgstr ""
+
+#: options.php:77
+msgid "Database Options"
+msgstr "ಡೇಟಾಬೇಸ್ ಆಯ್ಕೆಗಳು"
+
+#: options.php:79
+msgid "Restore defaults upon plugin deactivation/reactivation"
+msgstr ""
+"ಪ್ಲಗಿನ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ ಮೇಲೆ ಅಥವಾ ಪುನಃ ಸ್ಥಾಪಿಸಿದ ಮೇಲೆ ಡಿಫಾಲ್ಟ್ ಆಯ್ಕೆಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+
+#: options.php:80
+msgid ""
+"Only check this if you want to reset plugin settings upon Plugin reactivation"
+msgstr ""
+"ನೀವು ಪ್ಲಗಿನ್ ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಿದ ಮೇಲೆ ಪ್ಲಗಿನ್ ಹೊಂದಾಣಿಕೆಗಳನ್ನು ಮರುಹೊಂದಿಸಲು "
+"ಬಯಸಿದರೆ ಮಾತ್ರ ಇದನ್ನು ಆರಿಸಿ"
+
+#: options.php:84
+msgid "Save Changes"
+msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ"
+
+#: options.php:87
+msgid "How to get Twitter API credentials"
+msgstr "ಟ್ವಿಟರ್ API ರುಜುವಾತುಗಳನ್ನು ಪಡೆಯುವುದು ಹೇಗೆ"
+
+#: options.php:88
+#, php-format
+msgid ""
+"<strong>Step 1:</strong> Go to %s page on twitter and login with your "
+"twitter username and password."
+msgstr ""
+"<strong>ಹಂತ 1:</strong> ಟ್ವಿಟರ್ ನಲ್ಲಿ %s ಪುಟಕ್ಕೆ ಹೋಗಿ ಮತ್ತು ನಿಮ್ಮ ಟ್ವಿಟರ್ ಬಳಕೆದಾರ "
+"ಹೆಸರು ಮತ್ತು ಗುಪ್ತಪದ ನೀಡಿ ಲಾಗಿನ್ ಆಗಿ."
+
+#: options.php:88
+msgid "My applications"
+msgstr ""
+
+#: options.php:90
+#, php-format
+msgid "<strong>Step 2:</strong> Click %s button."
+msgstr "<strong>ಹಂತ 2:</strong> %s ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: options.php:90
+msgid "Create a new application"
+msgstr ""
+
+#: options.php:92
+msgid "<strong>Step 3:</strong> Enter your application details"
+msgstr "<strong>ಹಂತ 3:</strong> ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ"
+
+#: options.php:96
+msgid "Name: *"
+msgstr ""
+
+#: options.php:97
+msgid ""
+"Enter the name of your application. It may be the title of your website."
+msgstr "ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ. ಇದು ನಿಮ್ಮ ಜಾಲತಾಣದ ಶೀರ್ಷಿಕೆ ಇರಬಹುದು."
+
+#: options.php:101
+msgid "Description: *"
+msgstr ""
+
+#: options.php:102
+msgid "Enter some description. Eg: Tweets in my website."
+msgstr "ಸ್ವಲ್ಪ ವಿವರಣೆ ನಮೂದಿಸಿ. ಉದಾ: Tweets in my website."
+
+#: options.php:106
+msgid "Website: *"
+msgstr ""
+
+#: options.php:107
+msgid "Enter the URL of your website."
+msgstr "ನಿಮ್ಮ ಜಾಲತಾಣದ URL ಅನ್ನು ನಮೂದಿಸಿ."
+
+#: options.php:111
+msgid "Callback URL: "
+msgstr ""
+
+#: options.php:112
+msgid "Leave this empty."
+msgstr "ಇದನ್ನು ಖಾಲಿ ಬಿಡಿ."
+
+#: options.php:116
+msgid ""
+"Select <strong>Yes, I agree</strong> and complete the Captcha. Then click "
+"<strong>Create your Twitter application</strong> button."
+msgstr ""
+"<strong>Yes, I agree</strong> ಆರಿಸಿ ಮತ್ತು Captcha ಪೂರ್ಣಗೊಳಿಸಿ. ನಂತರ "
+"<strong>Create your Twitter application</strong> ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
+
+#: options.php:118
+msgid ""
+"<strong>Step 4:</strong> In the next page, click <strong>Create my access "
+"token</strong> button. It may take a moment to display access token. So "
+"refresh page."
+msgstr ""
+"<strong>ಹಂತ 4:</strong> ಮುಂದಿನ ಪುಟದಲ್ಲಿ <strong>Create my access token</"
+"strong> ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ. access token ಪ್ರದರ್ಶಿಸಲು ಒಂದೆರಡು ಕ್ಷಣ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. "
+"ಹಾಗಾಗಿ ಪುಟ ರಿಫ್ರೆಶ್ ಮಾಡಿ."
+
+#: options.php:120
+msgid ""
+"<strong>Step 5:</strong> Copy <em>Consumer key, Consumer secret, Access "
+"token, Access token secret</em> and enter them in the respective fields "
+"above."
+msgstr ""
+"<strong>ಹಂತ 5:</strong> <em>Consumer key, Consumer secret, Access token, "
+"Access token secret</em> ಗಳನ್ನು ನಕಲಿಸಿ ಮತ್ತು ಮೇಲೆ ಆಯಾ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಅವುಗಳನ್ನು "
+"ನಮೂದಿಸಿ."
+
+#: options.php:122
+#, php-format
+msgid "Twiget Twitter Widget is brought to you by %s developers."
+msgstr "Twiget Twitter Widget ನಿಮಗೆ ಪ್ರಸ್ತುತಪಡಿಸಿದವರು %s ಅಭಿವರ್ಧಕರು."
+
+#: options.php:122
+msgid "Graphene Theme"
+msgstr "ಗ್ರಾಫೀನ್ ಥೀಮ್"
+
+#: widgets.php:12
+msgid "Display the latest Twitter status updates."
+msgstr "ಇತ್ತೀಚಿನ ಟ್ವಿಟರ್ ಅಪ್ಡೇಟ್‌ಗಳನ್ನು ಪ್ರದರ್ಶಿಸಿ."
+
+#: widgets.php:31 widgets.php:108
+msgid "Latest tweets"
+msgstr "ಇತ್ತೀಚಿನ ಟ್ವೀಟ್‌ಗಳು"
+
+#: widgets.php:51
+msgid "Loading tweets..."
+msgstr "ಟ್ವೀಟ್‌ಗಳು ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+
+#: widgets.php:56
+#, php-format
+msgid "Follow %s"
+msgstr "%s ಅವರನ್ನು ಹಿಂಬಾಲಿಸಿ"
+
+#: widgets.php:119
+msgid "Title:"
+msgstr "ಶೀರ್ಷಿಕೆ:"
+
+#: widgets.php:123
+msgid "Twitter Username:"
+msgstr "ಟ್ವಿಟರ್ ಬಳಕೆದಾರರ ಹೆಸರು:"
+
+#: widgets.php:127
+msgid "Number of tweets to display:"
+msgstr "ಪ್ರದರ್ಶಿಸಲು ಟ್ವೀಟ್‌ಗಳ ಸಂಖ್ಯೆ:"
+
+#: widgets.php:132
+msgid "Show followers count"
+msgstr "ಹಿಂಬಾಲಕರ ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸಿ"
+
+#: widgets.php:136
+msgid "Show profile picture"
+msgstr "ಪ್ರೊಫೈಲ್ ಚಿತ್ರವನ್ನು ತೋರಿಸಿ"
+
+#: widgets.php:140
+msgid "Show Twitter Bio"
+msgstr "ಟ್ವಿಟರ್ ಪರಿಚಯವನ್ನು ತೋರಿಸಿ"
+
+#: widgets.php:144
+msgid "Show twitter client used"
+msgstr "ಬಳಸಿದ ಟ್ವಿಟರ್ ಕ್ಲೈಂಟ್ ತೋರಿಸಿ"
+
+#: widgets.php:145
+msgid "Eg: via Twitter for Android"
+msgstr "ಉದಾ:   via Twitter for Android"
+
+#: widgets.php:149
+msgid "Hide @replies"
+msgstr "@ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಮರೆಮಾಡು"
+
+#: widgets.php:150
+#, php-format
+msgid "Note: Selecting this sometimes result in showing less than %d tweets"
+msgstr ""
+"ಗಮನಿಸಿ: ಇದನ್ನು ಆಯ್ಕೆ ಮಾಡುವುದು ಕೆಲವೊಮ್ಮೆ %d ಕ್ಕಿಂತ ಕಡಿಮೆ ಟ್ವೀಟ್‌ಗಳನ್ನು ತೋರಿಸುವುದಕ್ಕೆ "
+"ಕಾರಣವಾಗಬಹುದು"
+
+#: widgets.php:154
+msgid "Open links in new window"
+msgstr "ಕೊಂಡಿ/ಲಿಂಕ್‌ಗಳನ್ನು ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆಯಿರಿ"
+
+#: twiget.php:80
+msgid "Donate for this plugin via PayPal"
+msgstr "ಈ ಪ್ಲಗಿನ್‌ಗೆ ಪೇಪಾಲ್ ಮೂಲಕ ದೇಣಿಗೆ ನೀಡಿ"
+
+#: twiget.php:80
+msgid "Donate"
+msgstr "ದೇಣಿಗೆ"
+
+#: twiget.php:81
+msgid "View more plugins from the developer"
+msgstr "ಈ ಡೆವೆಲಪರ್ ನ ಇನ್ನಷ್ಟು ಪ್ಲಗಿನ್‌ಗಳನ್ನು ನೋಡಿ"
+
+#: twiget.php:81
+msgid "More Plugins"
+msgstr "ಇನ್ನಷ್ಟು ಪ್ಲಗಿನ್‌ಗಳು"
+
+#: twiget.php:82
+msgid "Follow me on twitter!"
+msgstr "ನನ್ನನ್ನು ಟ್ವಿಟರಿನಲ್ಲಿ ಹಿಂಬಾಲಿಸಿ!"
+
+#: twiget.php:82
+msgid "twitter!"
+msgstr "ಟ್ವಿಟರ್!"
+
+#: twiget.php:97
+msgid "TwiGet Twitter Widget support"
+msgstr "ಟ್ವಿಜೆಟ್ ಟ್ವಿಟರ್ ವಿಜೆಟ್ ಸಹಾಯ"
+
+#: twiget.php:97
+msgid "Support"
+msgstr "ಸಹಾಯ"
+
+#: twiget.php:98
+msgid "Settings"
+msgstr "ಸಂಯೋಜನೆಗಳು"
+
+#: twiget.php:129
+#, php-format
+msgid ""
+"Twiget Twitter Widget plugin requires your Twitter API credentials to work. "
+"See <a href=\"%s\">Twiget's Options Page</a> for instructions on how to set "
+"this up."
+msgstr ""
+"Twiget Twitter Widget ಪ್ಲಗಿನ್ ಕೆಲಸ ಮಾಡಲು ನಿಮ್ಮ ಟ್ವಿಟರ್ API ರುಜುವಾತುಗಳು "
+"ಬೇಕಿರುತ್ತದೆ.  ಇದನ್ನು ಪಡೆಯುವುದು ಹೇಗೆ ಎಂದು ತಿಳಿಯಲು <a href=\"%s\">Twigetನ ಜೋಡಣೆ "
+"ಪುಟ</a>ವನ್ನು ನೋಡಿ."
+
+#: twiget.php:145
+#, php-format
+msgid "via %s"
+msgstr "%s ಮೂಲಕ"
+
+#: twiget.php:146
+msgid "less than a minute ago"
+msgstr "ಒಂದು ನಿಮಿಷಕ್ಕಿಂತ ಮುಂಚೆ"
+
+#: twiget.php:147
+msgid "about a minute ago"
+msgstr "ಸುಮಾರು ಒಂದು ನಿಮಿಷದ ಹಿಂದೆ"
+
+#: twiget.php:148
+#, php-format
+msgid "%s minutes ago"
+msgstr "%s ನಿಮಿಷಗಳ ಹಿಂದೆ"
+
+#: twiget.php:149
+msgid "about an hour ago"
+msgstr "ಸುಮಾರು ಒಂದು ಗಂಟೆಯ ಹಿಂದೆ"
+
+#: twiget.php:150
+#, php-format
+msgid "about %s hours ago"
+msgstr "ಸುಮಾರು %s ಗಂಟೆಗಳ ಹಿಂದೆ"
+
+#: twiget.php:151
+msgid "1 day ago"
+msgstr "1 ದಿನದ ಹಿಂದೆ"
+
+#: twiget.php:152
+#, php-format
+msgid "%s days ago"
+msgstr "%s ದಿನಗಳ ಹಿಂದೆ"

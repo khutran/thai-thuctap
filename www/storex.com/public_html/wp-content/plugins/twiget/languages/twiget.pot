@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twiget 1.1\n"
+"POT-Creation-Date: 2013-07-25 17:25+0530\n"
+"PO-Revision-Date: 2013-07-25 17:25+0530\n"
+"Last-Translator: Prasanna SP <prasanna@prasannasp.net>\n"
+"Language-Team:  <prasanna@prasannasp.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_attr__;sprintf;"
+"printf\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:40
+msgid "Twiget Twitter Plugin Settings"
+msgstr ""
+
+#: options.php:46
+msgid "Twitter API credentials"
+msgstr ""
+
+#: options.php:49
+msgid "Consumer Key"
+msgstr ""
+
+#: options.php:55
+msgid "Consumer Secret"
+msgstr ""
+
+#: options.php:61
+msgid "Access Token"
+msgstr ""
+
+#: options.php:67
+msgid "Access Token Secret"
+msgstr ""
+
+#: options.php:73
+msgid ""
+"<strong>NOTE:</strong> Twiget caches requests to Twitter to make full use of "
+"but never exceeds the Twitter API's limit of 180 requests per 15 minutes."
+"<br /> Therefore, it is recommended to use the API credentials you entered "
+"above for just this website, especially so if it has a high amount of "
+"traffic."
+msgstr ""
+
+#: options.php:77
+msgid "Database Options"
+msgstr ""
+
+#: options.php:79
+msgid "Restore defaults upon plugin deactivation/reactivation"
+msgstr ""
+
+#: options.php:80
+msgid ""
+"Only check this if you want to reset plugin settings upon Plugin reactivation"
+msgstr ""
+
+#: options.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: options.php:87
+msgid "How to get Twitter API credentials"
+msgstr ""
+
+#: options.php:88
+#, php-format
+msgid ""
+"<strong>Step 1:</strong> Go to %s page on twitter and login with your "
+"twitter username and password."
+msgstr ""
+
+#: options.php:88
+msgid "My applications"
+msgstr ""
+
+#: options.php:90
+#, php-format
+msgid "<strong>Step 2:</strong> Click %s button."
+msgstr ""
+
+#: options.php:90
+msgid "Create a new application"
+msgstr ""
+
+#: options.php:92
+msgid "<strong>Step 3:</strong> Enter your application details"
+msgstr ""
+
+#: options.php:96
+msgid "Name: *"
+msgstr ""
+
+#: options.php:97
+msgid ""
+"Enter the name of your application. It may be the title of your website."
+msgstr ""
+
+#: options.php:101
+msgid "Description: *"
+msgstr ""
+
+#: options.php:102
+msgid "Enter some description. Eg: Tweets in my website."
+msgstr ""
+
+#: options.php:106
+msgid "Website: *"
+msgstr ""
+
+#: options.php:107
+msgid "Enter the URL of your website."
+msgstr ""
+
+#: options.php:111
+msgid "Callback URL: "
+msgstr ""
+
+#: options.php:112
+msgid "Leave this empty."
+msgstr ""
+
+#: options.php:116
+msgid ""
+"Select <strong>Yes, I agree</strong> and complete the Captcha. Then click "
+"<strong>Create your Twitter application</strong> button."
+msgstr ""
+
+#: options.php:118
+msgid ""
+"<strong>Step 4:</strong> In the next page, click <strong>Create my access "
+"token</strong> button. It may take a moment to display access token. So "
+"refresh page."
+msgstr ""
+
+#: options.php:120
+msgid ""
+"<strong>Step 5:</strong> Copy <em>Consumer key, Consumer secret, Access "
+"token, Access token secret</em> and enter them in the respective fields "
+"above."
+msgstr ""
+
+#: options.php:122
+#, php-format
+msgid "Twiget Twitter Widget is brought to you by %s developers."
+msgstr ""
+
+#: options.php:122
+msgid "Graphene Theme"
+msgstr ""
+
+#: widgets.php:12
+msgid "Display the latest Twitter status updates."
+msgstr ""
+
+#: widgets.php:31 widgets.php:108
+msgid "Latest tweets"
+msgstr ""
+
+#: widgets.php:51
+msgid "Loading tweets..."
+msgstr ""
+
+#: widgets.php:56
+#, php-format
+msgid "Follow %s"
+msgstr ""
+
+#: widgets.php:119
+msgid "Title:"
+msgstr ""
+
+#: widgets.php:123
+msgid "Twitter Username:"
+msgstr ""
+
+#: widgets.php:127
+msgid "Number of tweets to display:"
+msgstr ""
+
+#: widgets.php:132
+msgid "Show followers count"
+msgstr ""
+
+#: widgets.php:136
+msgid "Show profile picture"
+msgstr ""
+
+#: widgets.php:140
+msgid "Show Twitter Bio"
+msgstr ""
+
+#: widgets.php:144
+msgid "Show twitter client used"
+msgstr ""
+
+#: widgets.php:145
+msgid "Eg: via Twitter for Android"
+msgstr ""
+
+#: widgets.php:149
+msgid "Hide @replies"
+msgstr ""
+
+#: widgets.php:150
+#, php-format
+msgid "Note: Selecting this sometimes result in showing less than %d tweets"
+msgstr ""
+
+#: widgets.php:154
+msgid "Open links in new window"
+msgstr ""
+
+#: twiget.php:80
+msgid "Donate for this plugin via PayPal"
+msgstr ""
+
+#: twiget.php:80
+msgid "Donate"
+msgstr ""
+
+#: twiget.php:81
+msgid "View more plugins from the developer"
+msgstr ""
+
+#: twiget.php:81
+msgid "More Plugins"
+msgstr ""
+
+#: twiget.php:82
+msgid "Follow me on twitter!"
+msgstr ""
+
+#: twiget.php:82
+msgid "twitter!"
+msgstr ""
+
+#: twiget.php:97
+msgid "TwiGet Twitter Widget support"
+msgstr ""
+
+#: twiget.php:97
+msgid "Support"
+msgstr ""
+
+#: twiget.php:98
+msgid "Settings"
+msgstr ""
+
+#: twiget.php:129
+#, php-format
+msgid ""
+"Twiget Twitter Widget plugin requires your Twitter API credentials to work. "
+"See <a href=\"%s\">Twiget's Options Page</a> for instructions on how to set "
+"this up."
+msgstr ""
+
+#: twiget.php:145
+#, php-format
+msgid "via %s"
+msgstr ""
+
+#: twiget.php:146
+msgid "less than a minute ago"
+msgstr ""
+
+#: twiget.php:147
+msgid "about a minute ago"
+msgstr ""
+
+#: twiget.php:148
+#, php-format
+msgid "%s minutes ago"
+msgstr ""
+
+#: twiget.php:149
+msgid "about an hour ago"
+msgstr ""
+
+#: twiget.php:150
+#, php-format
+msgid "about %s hours ago"
+msgstr ""
+
+#: twiget.php:151
+msgid "1 day ago"
+msgstr ""
+
+#: twiget.php:152
+#, php-format
+msgid "%s days ago"
+msgstr ""

@@ -1,0 +1,78 @@
+06-17-2016 @ 09:05:06 - Queuing 2.5.0 - wc_update_250_currency
+06-17-2016 @ 09:05:06 - Queuing 2.5.0 - wc_update_250_db_version
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_options
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_termmeta
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_zones
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_zone_methods
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_refunds
+06-17-2016 @ 09:05:06 - Queuing 2.6.0 - wc_update_260_db_version
+06-17-2016 @ 09:05:07 - Unable to dispatch WooCommerce updater: Operation timed out after 1014 milliseconds with 0 bytes received
+06-17-2016 @ 09:05:08 - Running wc_update_250_currency callback
+06-17-2016 @ 09:05:08 - Finished wc_update_250_currency callback
+06-17-2016 @ 09:05:08 - Running wc_update_250_db_version callback
+06-17-2016 @ 09:05:08 - Finished wc_update_250_db_version callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_options callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_options callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_termmeta callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_termmeta callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_zones callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_zones callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_zone_methods callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_zone_methods callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_refunds callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_refunds callback
+06-17-2016 @ 09:05:08 - Running wc_update_260_db_version callback
+06-17-2016 @ 09:05:08 - Finished wc_update_260_db_version callback
+06-17-2016 @ 09:05:08 - Data update complete
+08-03-2016 @ 09:05:17 - Queuing 2.5.0 - wc_update_250_currency
+08-03-2016 @ 09:05:18 - Queuing 2.5.0 - wc_update_250_db_version
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_options
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_termmeta
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_zones
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_zone_methods
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_refunds
+08-03-2016 @ 09:05:18 - Queuing 2.6.0 - wc_update_260_db_version
+08-03-2016 @ 09:05:19 - Unable to dispatch WooCommerce updater: Operation timed out after 1014 milliseconds with 0 bytes received
+08-03-2016 @ 09:05:19 - Running wc_update_250_currency callback
+08-03-2016 @ 09:05:19 - Finished wc_update_250_currency callback
+08-03-2016 @ 09:05:19 - Running wc_update_250_db_version callback
+08-03-2016 @ 09:05:19 - Finished wc_update_250_db_version callback
+08-03-2016 @ 09:05:19 - Running wc_update_260_options callback
+08-03-2016 @ 09:05:19 - Finished wc_update_260_options callback
+08-03-2016 @ 09:05:19 - Running wc_update_260_termmeta callback
+08-03-2016 @ 09:05:20 - Finished wc_update_260_termmeta callback
+08-03-2016 @ 09:05:20 - Running wc_update_260_zones callback
+08-03-2016 @ 09:05:20 - Finished wc_update_260_zones callback
+08-03-2016 @ 09:05:20 - Running wc_update_260_zone_methods callback
+08-03-2016 @ 09:05:20 - Finished wc_update_260_zone_methods callback
+08-03-2016 @ 09:05:20 - Running wc_update_260_refunds callback
+08-03-2016 @ 09:05:20 - Finished wc_update_260_refunds callback
+08-03-2016 @ 09:05:20 - Running wc_update_260_db_version callback
+08-03-2016 @ 09:05:20 - Finished wc_update_260_db_version callback
+08-03-2016 @ 09:05:20 - Data update complete
+08-03-2016 @ 10:02:32 - Queuing 2.5.0 - wc_update_250_currency
+08-03-2016 @ 10:02:32 - Queuing 2.5.0 - wc_update_250_db_version
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_options
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_termmeta
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_zones
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_zone_methods
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_refunds
+08-03-2016 @ 10:02:32 - Queuing 2.6.0 - wc_update_260_db_version
+08-03-2016 @ 10:02:33 - Unable to dispatch WooCommerce updater: Operation timed out after 1014 milliseconds with 0 bytes received
+08-03-2016 @ 10:02:34 - Running wc_update_250_currency callback
+08-03-2016 @ 10:02:34 - Finished wc_update_250_currency callback
+08-03-2016 @ 10:02:34 - Running wc_update_250_db_version callback
+08-03-2016 @ 10:02:34 - Finished wc_update_250_db_version callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_options callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_options callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_termmeta callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_termmeta callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_zones callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_zones callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_zone_methods callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_zone_methods callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_refunds callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_refunds callback
+08-03-2016 @ 10:02:34 - Running wc_update_260_db_version callback
+08-03-2016 @ 10:02:34 - Finished wc_update_260_db_version callback
+08-03-2016 @ 10:02:34 - Data update complete

@@ -11,8 +11,7 @@
 ## NGINX 
     IP 172.22.0.4
     //Nhận request từ client vào và reserve qua httpd xử lý website
-    //Nhận request từ client vào và reserve qua mautic server xử lý mautic 
-
+    
 ##  HTTPD: 
     IP 172.22.0.5
 
@@ -33,8 +32,6 @@
         - wordpress
 
 ### IP table:
-####    172.22.0.4      wpdocker.co
-####    172.22.0.4      wp1.co
 ####    172.22.0.4      hrautomail.vicoders.com
 ####    172.22.0.4      viwebsite.vicoders.com
 ####    172.22.0.4      myadmin.co
