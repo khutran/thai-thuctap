@@ -57,7 +57,7 @@ services:
     #nginx web app
     nginx:
         build: ./docker/nginx
-        # container_name: nginxserver
+        container_name: nginxserver
         networks:
             vmms_network:
                 ipv4_address: 172.22.0.4
@@ -77,7 +77,7 @@ services:
     #apache web server
     httpd:
         build: ./docker/httpd
-        # container_name: httpdserver
+        container_name: httpdserver
         networks:
             vmms_network:
                 ipv4_address: 172.22.0.5
@@ -101,7 +101,7 @@ services:
     #MySQL config
     mysql:
         build: ./docker/mysql
-        # container_name: mysqlserver
+        container_name: mysqlserver
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_ROOT_HOST: 0.0.0.0   

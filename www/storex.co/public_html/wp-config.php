@@ -17,8 +17,8 @@
  *
  * @package WordPress
  */
-define('WP_HOME','http://storex.co');
-define('WP_SITEURL','http://storex.co');
+// define('WP_HOME','http://storex.co');
+// define('WP_SITEURL','http://storex.co');
 
 
 // ** MySQL settings - You can get this info from your web host ** //
