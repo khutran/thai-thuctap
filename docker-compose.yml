@@ -4,25 +4,22 @@ services:
 
     #fast-CGI processer manager
     php7:
-        build: ./docker/php-fpm
-        # image: php:7.0-fpm
+        #build: ./docker/php-fpm
+        image: php:7.0-fpm
         container_name: php-fpm
         networks:
             static-network:
                 ipv4_address: 172.22.0.2
         ports:
             - "9000:9000"
-        volumes:
-            - ./www:/var/www
-            - ./etc/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf
-        links:
-            - mysql
+
         restart: always
 
     #nginx web app
     nginx:
-        build: ./docker/nginx
-        container_name: nginxserver
+        build: ./nginx
+        image: khu/nginx
+        container_name: nginx
         networks:
             static-network:
                 ipv4_address: 172.22.0.4
@@ -31,24 +28,21 @@ services:
             - '443:443'
         volumes:
             #source app
-            # - ./www:/var/www
+            - ./var/www/web:/var/www/web
             #nginx conf
             - ./etc/nginx/conf.d:/etc/nginx/conf.d
-            - ./etc/nginx/nginx.conf:/etc/nginx/nginx.conf
-            #log    
-            - ./logs/nginx:/var/log/nginx
         # depends_on: 
         #     - php7
         links:
             # - php7
             - httpd
-            # - mautic
         restart: always
 
     #apache web server
     httpd:
-        build: ./docker/httpd
-        container_name: httpdserver
+        build: ./httpd
+        image: khu/httpd
+        container_name: httpd
         networks:
             static-network:
                 ipv4_address: 172.22.0.5
@@ -56,13 +50,9 @@ services:
             - '8080:8080'
         volumes:
             #source app
-            - ./www:/var/www
-            #httpd conf
-            - ./etc/httpd/httpd.conf:/etc/httpd/conf/httpd.conf
-            - ./etc/httpd/extra:/etc/httpd/conf/extra
+            - /var/www/web:/var/www/web
+            - /etc/httpd/extra:/etc/httpd/conf/extra
             # - ./etc/httpd/logship.sh:/usr/local/logsplit.sh
-            #log    
-            - ./logs/httpd:/etc/httpd/logs       
         depends_on: 
             - php7
         links:
@@ -71,28 +61,23 @@ services:
 
     #MySQL config
     mysql:
-        build: ./docker/mysql
+        image: mysql
         environment:
             MYSQL_DATABASE: wordpress
-            MYSQL_USER: thaild
-            MYSQL_PASSWORD: thaild
-            MYSQL_ROOT_PASSWORD: root
+            MYSQL_USER: user
+            MYSQL_PASSWORD: pass
+            MYSQL_ROOT_PASSWORD: pass
             MYSQL_ROOT_HOST: 0.0.0.0   
-        container_name: mysqlserver
+        container_name: mysql
         networks:
             static-network:
                 ipv4_address: 172.22.0.3
         ports:
             - '3306:3306'
         volumes:
-            - ./db-data:/var/lib/mysql
-            - ./etc/mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
-            - ./logs/mysql:/var/log/mysql
+            - /var/lib/mysql:/var/lib/mysql
+            - /etc/my.cnf:/etc/mysql/my.cnf
         restart: always
-    
-volumes:
-  db-data:
-  www:
 
 networks:
   static-network:
